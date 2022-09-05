@@ -1,0 +1,83 @@
+<h1>Pilot</h1>
+<ul>
+    <li id="pilotName">
+        Name: <button onclick="update(pilotName)">[Name]</button>
+    </li>
+    <li id="background">
+        Background: <button onclick="update(background)">[lancerCorebook.Pilot_Background]</button>
+    </li>
+    <li>
+        <h4>Triggers</h4>
+        <ul>
+            <li id="trigger1">
+                <button onclick="update(trigger1)">[trigger = lancerCorebook.Triggers.consumableList]</button>+2
+            </li>
+            <li id="trigger2">
+                <button onclick="update(trigger2)">[trigger]</button>+2
+            </li>
+            <li id="trigger3">
+                <button onclick="update(trigger3)">[trigger]</button>+2
+            </li>
+            <li id="trigger4">
+                <button onclick="update(trigger4)">[trigger]</button>+2
+            </li>
+        </ul>
+    </li>
+
+    <h2>Pilot Gear</h2>
+    <li id="pilotGear">
+        <ul>
+            <li>
+            <h4>Melee:</h4>
+                <ul>
+                    <li id="melee">
+                        <button onclick="update(melee)">[lancerCorebook.Pilot_Gear.Melee_Weapon]</button>
+                    </li>
+                    <li id="meleeDesc">
+                        <button onclick="update(meleeDesc)">[lancerCorebook.Pilot_Gear.Melee_Weapon_Feature]</button>
+                    </li>
+                </ul>
+            </li>
+
+            <li>
+            <h4>Ranged:</h4>
+                <ul>
+                    <li id="ranged">
+                        <button onclick="update(ranged)">[lancerCorebook.Pilot_Gear.Ranged_Weapon]</button>
+                    </li>
+                    <li id="rangedDesc">
+                        <button onclick="update(rangedDesc)">[lancerCorebook.Pilot_Gear.Ranged_Weapon_Feature]</button>
+                    </li>
+                </ul>
+            </li>
+
+            <li>
+            <h4>Hardsuits:</h4>
+                <ul>
+                    <li id="hardsuit">
+                        <button onclick="update(hardsuit)">[lancerCorebook.Pilot_Gear.Hardsuits]</button>
+                    </li>
+                    <li id="hardsuitDesc">
+                        <button onclick="update(hardsuitDesc)">[lancerCorebook.Pilot_Gear.Hardsuits_Features]</button>
+                    </li>
+                </ul>
+            </li>
+
+            <li>
+                <h4>Limited Gear</h4>
+                <ul>
+                    <li id="gear1">
+                        <button onclick="update(gear1)">[g = lancerCorebook.Pilot_Gear.Gear.consumableList]</button>
+                    </li>
+                    <li id="gear2">
+                        <button onclick="update(gear2)">[g]</button>
+                    </li>
+                    <li id="gear3">
+                        <button onclick="update(gear3)">[g]</button>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </li>
+    <button onclick="update(pilotGear)">Re-roll all Gear</button>
+</ul>

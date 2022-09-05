@@ -1,0 +1,4 @@
+
+lancerCorebook = {import:lancer-corebook}
+characterNameGenerator = {import:characternamegenerator}
+Name = {[characterNameGenerator.output1]|[characterNameGenerator.output2]|[characterNameGenerator.output3]}
