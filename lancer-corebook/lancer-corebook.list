@@ -1,0 +1,386 @@
+// Note: Text that comes after "//" is ignored, which allows
+// you to write notes - like the one you're reading now!
+
+Pilot_Background
+  Celebrity
+  Colonist
+  Criminal
+  Far-field team
+  Hacker
+  Mechanic
+  Medic
+  Mercenary
+  NHP specialist
+  Noble
+  Outlaw
+  Penal colonist
+  Priest
+  Scientist
+  Soldier
+  Spaceborn
+  Spec ops
+  Super soldier
+  Starship pilot
+  Worker
+  
+Triggers
+  Act Unseen or Unheard
+  Apply Fist to Faces
+  Assault
+  Blow Something Up
+  Charm
+  Get a Hold of Something
+  Get Somewhere Quickly
+  Hack or Fix
+  Invent or Create
+  Investigate
+  Lead or Inspire
+  Patch
+  Pull Rank
+  Read a Situation
+  Show Off
+  Spot
+  Stay Cool
+  Survive
+  Take Control
+  Take Someone Out
+  Threaten
+  Word on the Street
+  
+Pilot_Identity
+  An infamous private military corporation.
+  Glory-seeking warriors.
+  Union regulars, career soldiers.
+  Union auxiliaries, recruited from a local world.
+  Elite agents of a planetary defense force.
+  Enforcers of the law.
+  A gang of criminals, thieves, and swindlers.
+  Acolytes of an ancient martial order.
+  Devotees of a higher power.
+  Guardians of an ancient royal lineage.
+  Corporate security; asset protection.
+  Explorers of the unknown.
+  Pirate scum.
+  Defenders of the homeland.
+  The vanguard of the rebellion.
+  Saviors of the weak and helpless.
+  Hungry travelers, in it for the money.
+  Inventors, engineers, and test subjects.
+  Heirs of a famous legacy.
+  The only ones who can stop what’s coming.
+	
+Patron
+  Anyone who pays us.
+  Our commanding officer.
+  The hierophant or high priest.
+  A corporate patron or sponsor.
+  Our ancient martial code or law; our duty.
+  Our mentor and founder.
+  Our local Union administrator and high command.
+  The whisperings of a long-dead monolith.
+  Our liege-lord or king.
+  The elders of our organization.
+  
+Personal_History
+  Which of you did I grow up with?
+  Which of you almost killed me once?
+  Which of you was I in love with? Do I still love you?
+  Which of you have I served with for some time?
+  Which of you distrusts me?
+  Which of you have I gotten drunk with more than once?
+  Which of you sees me as a mentor?
+  Which of you taught me everything I know about building mechs?
+  Which of you was marooned with me on a hostile planet?
+  Which of you took me on my first mission?
+  Which of you is most likely to ask me for advice?
+  Which of you knows a deep secret of mine? What is it?
+  Which of you thinks they have me all figured out?
+  Which of you finds me completely incomprehensible?
+  Which of you is the most curious about me?
+  Which of you finds me attractive?
+  Which of you thinks they can teach me a thing or two?
+  Which of you never expected to see me again?
+  Which of you will support and stand by me, no matter what?
+  Which of you calls me a friend?
+  
+Mission_Goal
+  Escort a VIP from a compromised location to a new, safer one.
+  Respond to an SOS from an unknown source with a location noted in the message.
+  Retrieve a valued or strategic object, item, or information from a secure, hostile location.
+  Investigate a rumor or tip from a valued informant.
+  Escort a long-flight weapon or ordnance to its target.
+  Defend an area expecting an attack (e.g., from pirates, hostile alien fauna, etc).
+  Explore a long-abandoned derelict for artifacts.
+  Bring down a piece of massive infrastructure (e.g., a bridge, skyhook, dam, etc).
+  Cause a distraction to provide cover for a covert mission of utmost importance.
+  Assassinate a VIP, discreetly, or in broad daylight, to send a message.
+  Attack a hostile defensive position to destroy a key objective.
+  Board a hostile ship or station and take it over; or, destroy it.
+  Be the first on the ground on a world hostile to human life; create a beachhead.
+  Smuggle something safely or securely through hostile territory.
+  Hunt down a team of notorious, feared, or respected mech pilots.
+  Provide cover for an evacuation.
+  Rescue and extract someone from a secure or dangerous location, e.g. a prison or warzone.
+  Secure a dangerous location.
+  With Union’s backing, liberate a people held hostage by their cruel ruler.
+  Make a desperate attempt to stop an incoming missile or attack.
+  
+Downtime_Resources
+  Access: A keycard, invite, bribes or insider access to a particular location.
+  Backing: Useful leverage through political support from a powerful figure.
+  Supplies: Gear allowing easy crossing of a hazardous or hostile area.
+  Disguise: An effective disguise or cover identity, allowing uncontested access to a location.
+  Diversion: A distraction that provides time to take action without fear of consequence.
+  Blackmail: Blackmail materials or sensitive information concerning a particular person.
+  Reputation: A good name in the mission area, prompting good first impressions with the locals.
+  Safe Harbor: Guaranteed safety for meeting, planning, or recuperating.
+  Tracking: Details on the location of important objects or people.
+  Knowledge: An understanding of local history, customs, culture, or etiquette.
+  
+Downtime_Gear
+  Ammo: Extra uses (+1 or +2) of a LIMITED weapon or system.
+  Rented gear: Temporary access to a new weapon or piece of mech gear.
+  Extra repairs: Supplies that give a mech +2 REPAIR CAP.
+  CORE battery: An extra battery that allows a second use of a mech’s CORE SYSTEM.
+  Deployable shield: A single-use deployable shield generator – a SIZE 1 deployable that grants soft cover to all friendly characters in a BURST 2 radius.
+  Redundant repair: The ability to STABILIZE as a free action once per mission.
+  Systems reinforcement: +1 ACCURACY to skill checks made with one skill – HULL, AGILITY, SYSTEMS or ENGINEERING.
+  Smart ammo: All weapons of your choice can be fired as if they are SMART.
+  Boosted servos: IMMUNITY to the SLOWED condition.
+  Jump jets: During this mission your mech can FLY when moving, but must end movement on land.
+  
+Downtime_Tactical_Advantages
+  Scouting: Detailed information on the kinds of mechs and threats you will face on the mission, such as number, type, and statistics.
+  Vehicle: Use of a transport vehicle or starship (e.g., a TIER 1 NPC with the VEHICLE or SHIP template.
+  Reinforcements: The ability to call in a friendly NPC mech of any Tier, once per mission.
+  Environmental shielding: Equipment that allows you to ignore a particular battlefield hazard or dangerous terrain, such as extreme heat or cold.
+  Accuracy: Training or enhancement that provides +1 ACCURACY to a particular mech skill or action for the duration of this mission.
+  Bombardment: The ability to call in artillery or orbital bombardment once during mech combat (full action, RANGE 30 within line of sight, BLAST 2, 3d6 explosive damage).
+  Extended Harness: A custom harness that allows you to carry an extra pilot weapon and two extra pieces of pilot gear for the duration of this mission.
+  Ambush:  Intel that allows you to choose exactly where your next battle will take place, including the layout of terrain and cover.
+  Orbital Drop: The ability to start the mission by dropping from orbit into a heavily fortified or hard to reach location.
+  NHP Assistant: A non-human person (NHP) – an advanced artificial intelligence – controlled by the GM, that can give you advice on the current situation.
+  
+Cloning_Quirks
+  Part (or all) of your body was too damaged to be cloned perfectly and a significant percentage of your clone body has been replaced with cybernetics. These high-quality prostheses aren’t obviously synthetic to casual observers. You don’t know the extent of the damage.
+  Your clone has been fitted with a necessary but visible cybernetic augmentation – an arm, leg, eyes, or similar. It is a conspicuous prosthetic.
+  By accident or malign intent, your cognitive profile has been loaded into someone else’s body. It might be a clone of a notorious or famous individual, with both enemies and allies who thought they were dead; or, you might run into the “original” person the clone was based on.
+  Your clone has a unique appearance that clearly marks you as vat-grown.
+  Thanks to a series of administrative mishaps, the appearance of your new body is drastically different to that of your old body.
+  An additional, withered limb grows out of your clone’s chest shortly after your cognitive profile has been loaded. It sometimes moves on its own.
+  There’s a conspicuous barcode printed on your clone body. The barcode means something specific to at least one powerful organization, but you aren’t privy to its meaning – at least not yet.
+  In certain light conditions, it’s possible to read a script or inscription printed just under your skin. The script is all over your body and contains information contested by powerful organizations or entities – scientific formulae, maps, or something else entirely.
+  Your clone body is unusually susceptible to solar radiation, viruses, bacteria, or some other common environmental phenomenon. You must wear an environmental suit to operate outside certain safe environments, which include your mech’s cockpit and your personal quarters. You can use downtime actions to make other rooms safe.
+  Genetic material from a non-human source was used in the creation of your clone body. Whoever revived you won’t tell you the exact details or what long-term effects it will have, and they treat you like a science experiment. The new genetic material has caused a cosmetic change that is useful and visible, although able to be hidden.
+  Whenever you try to sleep or rest, you’re stricken with vivid and persistent dreams, visions, and images of your death. You know they’re real but can’t reconcile the existential gulf between the experiences of the old and new versions of yourself.
+  In addition to your cognitive profile, your clone body has been loaded with a digital homunculus of someone else: a basic digital reconstruction of a personality that is more like a piece of software than a person. While not technically sapient, it is very smart, and carries a message or secret with it.
+  You’re plagued by the constant understanding or belief that the “real” you is actually dead, and you’re merely a facsimile of a dead person, implanted with someone else’s memories. You can’t establish the difference between the “you” that died and the “you” that exists now.
+  In addition to your cognitive profile, your flash clone is woven through with a subdermal data-lattice: this storage device contains very dangerous and potentially unwanted information that is contested or sought by powerful entities.
+  The flash-cloning process went awry, and you have been revived tabula rasa. In desperation, the technicians dump a stock personality construct into your clone body. Choose a new background and triggers.
+  There are complications while growing your clone body: it has a dramatically reduced life expectancy.
+  Something changed you – you now have persistent and intrusive mental contact with an entity or entities, human or otherwise.
+  You keep having searing headaches during which you see brief flashes of what you’re pretty sure is the future. Sometimes these visions come to pass, sometimes they don’t.
+  Knowingly or unknowingly, your clone body has been implanted with a mental trigger that places you in a receptive state when heard or activated, causing you to either follow a pre-programmed course of action or to follow instructions given by the person who activated you. These commands must be simple (e.g., kill, lie, etc.), and the GM determines who (PC or NPC) gave them. You might be able to overcome this effect in time.
+  You come back with total amnesia regarding the time before your death, meaning you must be retrained and prepared from scratch. You lose all previous triggers and assign new ones up to your current level. Additionally, you may rewrite some incidental facts of your backstory.
+
+Pilot_Gear
+  Melee_Weapon
+    Light / Tags(Sidearm) / Threat(1) / DMG(1)
+    Medium / Tags(-) / Threat(1) / DMG(2)
+    Heavy / Tags(Inaccurate) / Threat(1) / DMG(3)
+  Melee_Weapon_Feature
+    This weapon is ancient in design – it may have been excavated from pre-collapse ruins.
+    This weapon is ornate and ceremonial – perhaps a badge of office.
+    This weapon is well-known or was wielded by a famous warrior.
+    This weapon is plain or mass-produced but has a recognizable reputation and history – positive or negative.
+    This weapon is a family heirloom that was passed down to you.
+    This weapon was custom-forged for you and bears your mark, or you made it yourself.
+  Ranged_Weapon
+    Light / Tags(Sidearm) / Threat(3) / DMG(1)
+    Medium / Tags(-) / Threat(5) / DMG(2)
+    Heavy / Tags(Ordnance, Loading) / Threat(10) / DMG(4)
+  Ranged_Weapon_Feature
+    This weapon is outdated or old-fashioned by modern standards, but still reliable.
+    This weapon is finicky and prone to jamming. You’re the only one who can use it effectively.
+    This weapon is sleek, foldable, and easy to conceal.
+    This weapon makes an amazing show, giving off an enormous amount of noise, smoke, light and so on when it fires.
+    This weapon has been custom-tooled for you by an omninet miltech enthusiast and has a couple of extra features – foldable stands, grips, range finders, motion detectors, omninet hookups, chat programs and text games.
+    This weapon was given by someone else, or taken from them.
+  Hardsuits
+    Light Hardsuit    / Bonuses(+3 HP)        / Armor(0) / Evasion(10) / E-Def(10) / Speed(4)
+    Assault Hardsuit  / Bonuses(+3 HP)        / Armor(1) / Evasion(8)  / E-Def(8)  / Speed(4)
+    Heavy Hardsuit    / Bonuses(+3 HP)        / Armor(2) / Evasion(6)  / E-Def(8)  / Speed(3)
+    Mobility Hardsuit / Bonuses(FLIGHT)       / Armor(0) / Evasion(10) / E-Def(10) / Speed(5)
+    Stealth Hardsuit  / Bonuses(INVISIBILITY) / Armor(0) / Evasion(8)  / E-Def(8)  / Speed(4)
+  Hardsuits_Features
+    This hardsuit was custom-tooled by an artisan manufacturer – it’s a masterwork piece of personal protection, easily identifiable as a creation of its designer.
+    This hardsuit is outdated or an old model but remains incredibly sturdy. You might be the only one who remembers how to use it. People might have great affection for this model and its reputation is well deserved, although it lacks many features of modern suits.
+    This hardsuit has components that can be miniaturized for storage: some of its components can slide into or out of place without requiring it to be taken off, and it can be activated with a moment’s notice using predefined micromuscular twitches.
+    This hardsuit has self-renewing and sealing components, possibly biological in nature. It integrates with its user in order to power itself.
+    This hardsuit has been heavily customized by either you or someone else, with decorative features and notable cosmetic changes, such as etchings, trophies, badges or emblems.
+    This hardsuit has strong cultural or personal significance for you and has a signature or recognizable appearance. Perhaps it’s worn by the members of a particular mercenary company, is the custom armor of an imperial guard, or was designed on your homeworld
+  Gear
+    Corrective - LIMIT 1 (pg. 112)
+    Frag Grenades - LIMIT 2 (pg. 112)
+    Patch - LIMIT 1 (pg. 112)
+    Stims - LIMIT 3 (pg. 112)
+    Thermite Charge - LIMIT 1 (pg. 112)
+    Antiphoton Visor (pg. 113)
+    Camo Cloth (pg. 113)
+    Dataplating (pg. 113)
+    Extra Rations (pg. 113)
+    Flexsuit (pg. 113)
+    Handheld Printer (pg. 113)
+    Subjectivity-Enhancement Suite (pg. 113)
+    Infoskin (pg. 113)
+    Mag-Clamps (pg. 113)
+    Nanite Spray (pg. 113)
+    Omnihook (pg. 114)
+    Personal Drone (pg. 114)
+    Prosocollar (pg. 114)
+    Smart Scope (pg. 114)
+    Sleeping Bag (pg. 114)
+    SSC Sylph Undersuit (pg. 114)
+    Sound System (pg. 114)
+    Tertiary Arm (pg. 114)
+    Wilderness Survival Kit (pg. 114)
+    
+
+Mission_Hook
+  Long Ride Down (pg. 260).
+  Distant Glimmer (pg. 260).
+  A Quiet Life (pg. 260)
+  Dead Orbit (pg. 260)
+  The God Damn Cavalry (pg. 260)
+  Familiar Faces (pg. 260).
+  Bowels of the Earth (pg. 261).
+  Childhood’s End (pg. 261).
+  Clarion Call (pg. 261).
+  Syzygy (pg. 261).
+  Mud and Lasers (pg. 261).
+  Balancing Act (pg. 261).
+  Emissary (pg. 261).
+  Apocalyptica (pg. 261).
+  Too Old For This Shit (pg. 262).
+  Catacomb (pg. 262).
+  Guardian (pg. 262).
+  Masks (pg. 262).
+  Holy War (pg. 262).
+  Dungeon (pg. 262).
+
+Sitrep
+  Control (pg. 268)
+  Escort (pg. 269)
+  Extraction (pg. 270)
+  Gauntlet (pg. 271)
+  Holdout (pg. 272)
+  Recon (pg. 273)
+
+World
+  Types
+    Barren, with no atmosphere, no water, and scarce valuable resources; under a ceaseless barrage of terrible radiation.
+    Barren, with a thin atmosphere and a distant sun; a cold, dead place, where a lonely wind blows never-ending across flat planes of dark ice and stone..
+    Barren, rich in mineral wealth and cooling after a long period of tectonic activity; massive thunderstorms lash this world, and methane ice-storms transform into world-sculpting glaciers.
+    Barren, encased in ice that hides a deep, subglacial sea; the surface trembles with asteroid impacts and this world’s orbit spills ice and dust behind it.
+    Barren, old, and close to its sun; the mountains have eroded to sand, and the dunes are endlessly white.
+    Temperate and lush – forever hazy beneath a thick mist that all but blocks out the sun.
+    Temperate and fertile, with myriad biomes and skies piled high with columnar clouds.
+    Temperate and dry, marked by great swathes of plains and desert; vast alluvial deposits speak of the rivers that once were.
+    Temperate; a world of archipelagos scattered across a mild sea.
+    Temperate, with a healthy climate; this place is rich in native flora and fauna, and old, stable biomes.
+    Inhospitable, with a thick and choking atmosphere; deep valleys hold pockets of breathable air.
+    Inhospitable – a world of storm-tossed nitrogen oceans and wind-polished cadmium islands, where tides surge and recede for years and no land is safe from the flood or its retreat.
+    Inhospitable, full of lava, and stalked by lightning; a new world, upon which there is no life to be found.
+    Inhospitable, ever since a distant gamma-ray burst; where life once thrived, it is gone, and the land simmers with fires unceasing.
+    Inhospitable, cracked open by an ancient impact; it bleeds heat into the vacuum as it slowly dies.
+    A moon – temperate, with a stable atmosphere; the curve of its horizon visible from even a modest mountaintop. Its parent world looms massive above it, ever-present in its day and night sky.
+    An icy moon, cold and dim – one of many around its parent world; asteroids that should pummel the larger planet are caught here instead.
+    An ocean world; there is no land to be found.
+    A dead world with a remnant atmosphere; massive geometric features and perfectly flat metal planes create an uncanny landscape of deep canals, carrying moaning winds the length of this world.
+    An ancient world bathed in the light of its star, red and swollen in the sky; everything here has a terrible symmetry, as if nature itself had oriented – or been oriented – around a single landmark.
+  Natural_Feature
+    100-Year Storms: The storms come with increasing frequency and duration, typically in the form of massive hurricanes.
+    Active Tectonics: Earthquakes take place more often here than on other worlds; on ocean worlds, this means a higher prevalence of tsunamis.
+    Inert Core: This world’s core has stopped spinning, causing it to shed its magnetic field. Compasses do not work here, and UV exposure is dangerous without significant protection
+    Monobiome: An oddity among worlds, this planet has a single, global biome and a single, global climate. It could be a world-spanning forest, desert, swamp, or something else entirely.
+    Worldscar: Sometime in the last million years – a short time, geologically – this world suffered an impact from a massive stellar body. Its climate has leveled, but the scar remains a massive, visible feature.
+    Royal Court: Hundreds of terrestrial moons dance in this planet’s orbit, ranging from hundreds of yards in diameter to thousands of kilometers. The night sky is bright, and the day is marked by gentle, dappled light.
+    Under Twin Suns: This world orbits a binary star.
+    Ringed: This world is banded by series of planetary rings, visible as a thin white line across the night sky. It’s an especially beautiful place to view from afar.
+    Remote: Once a remote colonial, industrial, or scientific prospect, this world is far removed from human society and takes great effort to reach.
+    Cosmopolitan: Interstellar shipping lanes pass near this world; it’s a frequent landmark, resupply point, or pit stop for interstellar travelers, who either remain in orbit or have an easy path down to the surface of the world.
+    Hecatoncheires: This world is marked by a series of massive mountains – sheer peaks, rising kilometers into the sky.
+    Epochal Sunset: This world is caught in the transition between geologic eras – ice to temperate, temperate to ice, and so on; expect a varied climate.
+    Monument of Shame: Abandoned following massive climate destabilization, this world is now a dumping ground for passing ships and local corpro-states.
+    Quarantine: Union red tape hides this world from the rest of the galaxy; the reasons may be known or unknown.
+    Breathable Atmosphere: Perhaps surprisingly, this world has a breathable atmosphere; humans can breathe here without relying on an EVA, scrubbers, or other augmentation.
+    High Gravity: This world has higher gravity than most; it ranges from 1–2 g greater than Cradle standard.
+    Low Gravity: This world has lower gravity than most; it ranges from 0.1–0.99 g less than Cradle standard.
+    Hard Sun: This world’s atmosphere provides little to no UV protection; venturing outside in the daylight is a risk without proper optical and dermal shielding.
+    Dreamland: There is something otherworldly about this place – islands that float suspended in the air, oceans of liquid mercury, moving forests, or something stranger.
+    Dust and Echoes: There are ancient, pre-Fall ruins on this world, with no indication as to their origin or nature
+  Anthropocentric_Feature
+    Settlement - New: A new colonial settlement has recently been seeded here; drones and subalterns work tirelessly, clearing space and assembling the initial colony footprint. A small cluster of buildings house the landfall team – they are likely to welcome visitors, as they haven’t had any for years. The population numbers in the dozens.
+    Settlement - First Generation: The colonial settlement here is young, with its first generation of native-born colonists now of-age and working to build a future home. There is a population of hundreds to thousands.
+    Settlement - Stable: The colonial settlement here is in its second or third generation; stable, with a population in the tens of thousands.
+    Outpost - Union Far-Field Team Mission: There is a far-field team outpost on this world, but no other human lives.
+    Outpost - Relay Node: This world is empty save for a lone omninet relay node. A small team crews the node, providing security and on-site technical support; they rotate on a regular schedule.
+    Outpost - SIGINT Station: The Union Navy maintains a small signals-intelligence (SIGINT) station here. There may or may not be a larger population, but even if there is, the SIGINT station stands somewhere high and remote.
+    Outpost - Astrocartography Station: This world is orbited by one of Union’s astrocartography stations – a suite of automated telescopes, sensors, and observational equipment used to map distant stars and worlds.
+    Outpost - Checkpoint/Forward Post: This world hosts a small Union garrison, likely made up of auxiliaries who report to a remote Union officer; their duty is to scout, stand watch, and await further orders. Most of their time is spent exercising, cleaning, maintaining gear, and waiting for something to happen.
+    Installation - Research Facility: This world is the site of a research facility, belonging to Union, a corpro-state, or some other entity; it might be a secure, top-secret site, or it might not.
+    Installation - Proving Ground: A significant part of this world – or maybe all of it – is given over to a proving ground, test field, ordnance firing range, or other large-scale installation for hazardous testing, training, measuring, or dumping. It is maintained by a long-term skeleton crew, although there is often a population surge during particular seasons or exercises.
+    Installation - Deep Field Relay: This world features a secure, long-range sensor installation, probably located somewhere tall and remote. Populated by a small crew, the installation might be run by Union or a private entity.
+    Installation - Union Embassy: Union’s embassies, like the one here, are modest buildings, usually found in the capital cities of Core worlds. If this world isn’t yet considered a Core world, it is likely to become one soon.
+    Installation - Corpro-State Campus: Somewhere on this planet is the local campus of a corpro-state, home to a large permanent population. The campus might be an enclave, an exclave, or integrated into a larger urban environment, and is likely an administrative center with some level of public exposure or notoriety, whether it is publicly accessible or otherwise.
+    Base - Naval Command: This world is home to the Union Navy’s regional system command (SysComm) center. Equal parts operations hub, garrison, shipyard, recruitment center, and medical facility, this facility is a large military base with everything that entails – defensive perimeters, sunken launch pads, reinforced buildings, and bunkers. SysComm centers house massive permanent populations and garrisons numbering in the thousands; additionally, they are almost always supported by a complement of ships with – at minimum – global strike and delivery capacity.
+    Base - Capital: As the capital world for its home system, the physical heart of the system’s government is located here; these hubs might take the form of a campus, estate, block, or other large collection of hardened buildings, within which the state administration performs its duties. In more liberal states, there is likely to be some level of public access to this facility.
+    Base -  Uplift: There is a spaceport here – a sprawling launch facility open to the public, although restrictions on access are subject to local laws.
+    Civic - Municipalities: Hundreds of millions of people live here, in modest towns and cities scattered across diverse biomes. There might be one or two signature cities, but there are vast stretches of wilderness between them and each municipality has a distinct culture and identity.
+    Civic - Arcologies: The people of this world live in one or more arcologies – unified, self-contained ecosystem – cities, designed to exist in harmony with exterior and interior worlds. The residents of these arcologies may be strictly monitored and walled off from the larger world, or free to travel. This world is likely well-developed, with a history that reaches back at least several centuries; its global population numbers from hundreds of millions to single-digit billions.
+    Civic - Metroswathes: Unlike arcology and municipal worlds, this world is intensively developed, with a significant proportion of landmass (<10–15%) given over to a metroswathe: a single, amalgamated urban environment that is home to billions. That such metropoles can function – and, likely, much of it does not – is miraculous. The formation and metastasis of metroswathes usually aren’t planned, although large sections are likely to have been developed intentionally. Vast and baroque criminal, bureaucratic, and community organizations work through avenues legal and otherwise, and organize extensively at street level.
+    Union - Administrator’s Residence: Whether or not this was always the case, this world is habitable and has a stable population of millions. A Union administrator makes their residence here and, as such, the world has fast become the star system’s most important strategic hub.
+  Environments
+    Dangerous Flora or Fauna: An unusually large proportion of this planet’s animal or plant life is dangerous; some of the flora and fauna may predatory, particularly hostile, or even titanic in size. Use the Monstrosity NPC type to generate encounters with wildlife. Hostile flora can appear on the battlefield as immobile characters with Size 1–2, 5 HP, and Evasion 10; targets that move adjacent to them must succeed on a Hull check or take 3DMG and become Immobilized until the flora is destroyed, as it traps them with sticky sap, webbing, a pit, or the like.
+    Extreme Cold: Local cultures have adapted to the frozen climate, but mechs and pilots quickly freeze without a nearby source of heat. Mechs that don’t move or Boost on their turn become Immobilized at the end of their turn. This lasts until they break free with a successful Hull check as a quick action. In addition, all mechs gain Resistance to HEAT.
+    Extreme Heat: Society has retreated mostly underground to escape this world’s blistering atmosphere. All HEAT inflicted (to the user or others) by systems or weapons is increased by +1.
+    Thin Atmosphere: All characters gain Resistance to Explosive DMG.
+    Extreme Sun: Characters take 1d6 HEAT whenever they are aren’t in shade at the end of a turn. Each character may only take this HEAT damage once per round.
+    Corrosive Atmosphere: The dense atmosphere of this world eats through armor. All weapons gain AP.
+    Particulate Storms: This planet is swept by brutal, scouring storms of sand, rock, or metal. During storms, mechs always have soft cover. Pilots that leave their mech take 1AP DMG each turn they are outside.
+    Electrical Storms: This planet is swept by unusually strong electrical storms. During storms, choose a character at random at the end of each round: they must succeed on an ENGINEERING check with +1 Difficulty per level of Size or be STUNNED until the end of their next turn by a bolt of lightning.
+    Disruptive Storms: The storms on this planet are so highly charged that electronic systems can’t function. All tech actions, attacks, and SYSTEMS checks and saves receive +1 Difficulty.
+    Dangerous Storms: Storms of fire, meteors, acid rain, ice, or other destructive particles sweep this planet. During storms, all characters take 2 ENERGY AP DMG at the end of their turns unless they are adjacent to an object that grants hard cover.
+    Ocean World: Less than five percent of this world’s surface rises above the ocean. Mechs sink to the bottom and move as though in difficult terrain unless they are flying or have an EVA Module. Mechs can walk (slowly) on the bottom and are usually able to function in extremely high-pressure environments.
+    Earthquakes: This world is regularly rocked by earthquakes. During earthquakes, roll 1d6 at the end of each round: on 1, all mechs must succeed on a HULL check or be knocked Prone unless they are flying.
+    Molten World: Parts of this world’s crust juts through the surface in showers and pools of liquid rock. When characters move into areas of molten rock or lava for the first time on their turn or start their turn there, they take 5 ENERGY AP DMG and 3 HEAT.
+    Primordial World: This world is a bubbling soup of semi-organic mud and gases. Humans must use breathing apparatuses or sealed suits outside of their mechs to survive the toxic atmosphere, and boiling mud creates numerous areas of both difficult and dangerous terrain.
+    Low Gravity: Mechs count as flying when they Boost but must land after they move. Characters never take damage from falling.
+    High Gravity: Mechs cannot Boost and are Immobilized instead whenever they would be Slowed. Prone mechs can stand even when Immobilized by this gravity, but must pass a HULL check to do so.
+    Tomb World: This world has extremely high levels of ambient radiation, possibly because of nuclear war, atmospheric degradation, or something more sinister. Outside of mechs, humans without environmental protection temporarily decrease their maximum HP by 1 per hour of exposure. If they reach 0 HP this way, they die. They can regain their maximum HP by performing a Full Repair in a safe environment.
+    Spire World: Instead of a surface, this world is comprised of countless floating islands or spires, each held aloft in a gaseous substrate and suspended through magnetic force. Perhaps the crust was shattered by a superweapon or natural disaster. Most of the remaining landmass is disconnected, although some islands are large enough to hold cities. Navigation systems are almost useless here.
+    Sinking World: The surface of this world is covered in fine sand or thick mud. Mechs that move 1 space or less during their turn are Slowed. Slowed mechs that move 1 space or less are Immobilized and start sinking, eventually becoming completely engulfed. This effect lasts until an affected mech (or one adjacent to it) succeeds on a Hull check as a full action.
+    Holy World: This world is beautiful and lacks especially dangerous features, but the local population holds it sacrosanct. Damaging any natural object – rocks, trees, and pristine grasslands, for example – incurs the wrath of the residents.
+
+// TODO: Will add once I understand the condition formatting in perchance better
+//Structure_DMG_Table //(pg. 80)
+//Overheating_Table //(pg. 81)
+//Monster_Structure_DMG_Table //(pg. 324)
+
+
+// Tips:
+//  - Highlight multiple lines and press Tab or Shift+Tab to indent and un-indent them all an once
+//  - You can change the URL of your generator by clicking the "settings" button in the top-right
+//  - Use this template if you want your generator to be vertically centered on the page:  perchance.org/centered-minimal#edit
+//  - Add background images, fonts, and other stuff with plugins: perchance.org/plugins
+//  - Here are some templates that you can use to create nice-looking generators without learning HTML and CSS:  perchance.org/templates
+//  - Use the "layout maker" plugin to create complex layouts without learning how to code:  perchance.org/layout-maker-plugin
+//  - Here are some generators you might like to import:  perchance.org/useful-generators
+//  - Read this page after reading the tutorial:  perchance.org/examples
+//  - There's a "wrap" button in the top-right if your lines are really long. If you add   $output=[this.joinItems(" ")]   as the first item in your list, then writing [yourListName] will magically output all of the items joined together, rather than a random item from the "yourListName" list.
+//  - Ask our friendly community members if you need help:  reddit.com/r/perchance
+// \( ﾟヮﾟ)/
+
+
+
+

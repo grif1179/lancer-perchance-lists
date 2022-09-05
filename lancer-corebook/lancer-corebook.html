@@ -1,0 +1,105 @@
+<h1>Pilot Background</h1>
+<p style="margin:1em auto; padding:0 1em; max-width:700px;" id="pilotBackground">[Pilot_Background]</p>
+<button onclick="update(pilotBackground)">randomize</button>
+<hr>
+
+<h1>Triggers</h1>
+<p style="margin:1em auto; padding:0 1em; max-width:700px;" id="triggers">[Triggers]</p>
+<button onclick="update(triggers)">randomize</button>
+<hr>
+
+<h2>Pilot Identity</h2>
+<p style="margin:1em auto; padding:0 1em; max-width:700px;" id="pilotIdentity">[Pilot_Identity]</p>
+<button onclick="update(pilotIdentity)">randomize</button>
+<hr>
+
+<h2>Pilot Patron</h2>
+<p style="margin:1em auto; padding:0 1em; max-width:700px;" id="pilotPatron">[Patron]</p>
+<button onclick="update(pilotPatron)">randomize</button>
+<hr>
+
+<h2>Personal History</h2>
+<p style="margin:1em auto; padding:0 1em; max-width:700px;" id="personalHistory">[Personal_History]</p>
+<button onclick="update(personalHistory)">randomize</button>
+<hr>
+
+<h1>Mission Goal</h1>
+<p style="margin:1em auto; padding:0 1em; max-width:700px;" id="missionGoal">[Mission_Goal]</p>
+<button onclick="update(missionGoal)">randomize</button>
+<hr>
+
+<h1>Downtime Resources</h1>
+<p style="margin:1em auto; padding:0 1em; max-width:700px;" id="downtimeResources">[Downtime_Resources]</p>
+<button onclick="update(downtimeResources)">randomize</button>
+<hr>
+
+<h1>Downtime Gear</h1>
+<p style="margin:1em auto; padding:0 1em; max-width:700px;" id="downtimeGear">[Downtime_Gear]</p>
+<button onclick="update(downtimeGear)">randomize</button>
+<hr>
+
+<h1>Downtime Tactical Advantages</h1>
+<p style="margin:1em auto; padding:0 1em; max-width:700px;" id="downtimeTacticalAdvantages">[Downtime_Tactical_Advantages]</p>
+<button onclick="update(downtimeTacticalAdvantages)">randomize</button>
+<hr>
+
+<h1>Cloning Quirks</h1>
+<p style="margin:1em auto; padding:0 1em; max-width:700px;" id="cloningQuirks">[Cloning_Quirks]</p>
+<button onclick="update(cloningQuirks)">randomize</button>
+<hr>
+
+<h2>Pilot Gear</h2>
+<div style="margin:1em auto; padding:0 1em; max-width:700px;" id="pilotGear">
+    <ul>
+        <li>
+          <h4>Melee:</h4>
+            <ul>
+              <li>[Pilot_Gear.Melee_Weapon]</li>
+              <li>[Pilot_Gear.Melee_Weapon_Feature]</li>
+            </ul>
+        </li>
+
+        <li>
+          <h4>Ranged:</h4>
+            <ul>
+              <li>[Pilot_Gear.Ranged_Weapon]</li>
+              <li>[Pilot_Gear.Ranged_Weapon_Feature]</li>
+            </ul>
+        </li>
+
+        <li>
+          <h4>Hardsuits:</h4>
+            <ul>
+              <li>[Pilot_Gear.Hardsuits]</li>
+              <li>[Pilot_Gear.Hardsuits_Features]</li>
+            </ul>
+        </li>
+
+        <li>
+            <h4>Limited Gear</h4>
+            <ul>
+                <li>[g = Pilot_Gear.Gear.consumableList]</li>
+                <li>[g]</li>
+                <li>[g]</li>
+            </ul>
+        </li>
+    </ul>
+</div>
+<button onclick="update(pilotGear)">randomize</button>
+<hr>
+
+<h2>World</h2>
+<div style="margin:1em auto; padding:0 1em; max-width:700px;" id="world">
+    <h4>Type</h4>
+    <p>[World.Types]</p>
+
+    <h4>Natural Feature</h4>
+    <p>[World.Natural_Feature]</p>
+
+    <h4>Anthropocentric Feature</h4>
+    <p>[World.Anthropocentric_Feature]</p>
+
+    <h4>Environments</h4>
+    <p>[World.Environments]</p>
+</div>
+<button onclick="update(world)">randomize</button>
