@@ -1,0 +1,439 @@
+// Note: Text that comes after "//" is ignored, which allows
+// you to write notes - like the one you're reading now!
+
+characterNameGenerator = {import:characternamegenerator}
+enterpriseNameGenerator = {import:ogfcg6tkuz}
+
+Station
+  Name
+    Hades, Hellmouth, Pandemonium, Devildance, Tartarus, Umber
+    Deliverance, Salvation, Gate of Heaven, Nirvana, Gloria, Bardo
+    Persistence, Samsara, Resolute, Redoubt, Dauntless, Stableground
+    Far Point, Highwater, Overlander, Horizon’s End, Rim ‘o The World, “___” End
+    Borea, Tundra, Percipita, Cumulus, Alpine, Frost
+    Petergate, Harper’s Hope, Rose Landing, Salahville, Ramahall, Law’s Point
+    Fat Chance, Hardly Truly, Rollem, Freerad, Lucky, “…” Casino…
+    Raftland, The Leash, Harbor, Dry-dock, Null Pier, “___” Maritime
+    Terminus, Interchange, Switch, Hub, Terminal, Apex
+    Barbadas, Arruda, Signas, Mollitempos, Tzatazi, Garudanas
+    “___” Hole, “___” Pit, “___” Depths, “___” Deep, Lower “___” , Under “___”
+    Goose, Eagle, Falcon, Raptor, Avia, Duck
+    “___” Fields, “___” Garden, “___” Orchards, “___” Forest, Nest, Dell
+    Icebreaker, Derrick, Well, Carver, Site, Drill
+    EM 51817
+    Nasser’s Cleft, “___” Canyon, “___” Fissure, Spires, Arches, Cliff
+    The Olympic, Sunstar, The Heavens, Comet’s Tail, The Glittering Arc, Diadem 1
+    Saynomore, Anythingelse, Cannagetcha, Pickr’Poison, Namaprice, F’sale
+    The Endless Gallery, Mirrorhell, The Silent Station, Derelict 42B, Titan, Solo Gate
+    Nowhere, The Eye, Blink’s Gate, Coma Station, Voidhall, The Concordance
+  Seed
+    Abandoned Union Navy shipyard, purchased and sold over and over to successive owners until it was eventually hauled out to the Rim. The population might be anywhere from minor to massive.
+    A pirate colony based around an old surveying ship that has been permanently fused to its escorts. Now, it is nominally governed by an anarchist pirate queen. The colony keeps its doors open to outsiders but moves every 3-5 local days to avoid detection, bristling with weapons and thick with armed guards.
+    A well-known IPS-Northstar refueling station, neutral ground for trade and services. This station is fequented by IPS-N’s Trunk Security and serves as a local base for the corpro’s patrol cutters. The central ring is full of the parked ships and charter captains ready and willing to run any job you need, for the right price.
+    A long-abandoned mining colony, drilled deep into an enormous asteroid. Habitation is centered around its warm reactor core. The hundreds of miles of tunnels outside are more or less empty, you think. People disappear here often.
+    A quiet old Union Navy outpost, barnacled with merchants and traders, small diplomatic offices representing the major powers, serviceable bars, official and unofficial checkpoints, and people willing to get you what you need if you’ve got the manna to cover it. This outpost is staffed by bored Union personnel mostly there to run customs checks.
+    An enormous domed Volador trade bazaar with stable artificial gravity. Although they originally built it, los Voladores have not been here for hundreds of subjective years. It has largely been taken over by outside construction, and now it serves as the capital station for a powerful enterprise.
+    A collection of salvaged freighters, lashed together to form a massive, rambling habitat full of dark corners, hidden warrens, and other secrets. Theoretically, it can even move if enough of the old ship drives can be re-ignited.
+    A community of hydroponic farming habitats and humble agricultural families built among a collection of leashed asteroids, with a central hub for trade. This station is rumored to be a popular “retirement” destination for Horizon collectivists, and it may even be home to a “free” NHP. It’s rather calm and nice.
+    A decommissioned Harrison Armory legion outpost from the first Dawnline colonization push, now a playground for long-haul freighter crews. It is filled with nightclubs, gambling dens, and pleasure houses, and as with most places in the Rim, anything goes here if you’ve got the manna. This station is popular with professional pirates from many enterprises, who see it as a neutral ground where they can have a good time.
+    A hollowed-out asteroid or massive cylinder ship with an expansive station built on the inside surface, spinning at a comfortable 1 g. The metropolis on the inside is home to thousands of souls, and has petitioned Union for official state recognition.
+  District
+    The Shambles
+    Dockside
+    “___” Fields
+    “___” Bay
+    Core
+    Mall
+    “___” Lower
+    Storage
+    Ring Central
+    Nest
+    The Chokey
+    Upper “___”
+    “___” Processing
+    River Street
+    Warrens
+    Down Central
+    Spacer’s Walk
+    Narrows
+    Spires
+    Geo-“___”
+  Purpose
+    Asteroid Mining
+    General resupply for freighters
+    Smuggling cove
+    Hydroponic or terrestrial-analogous farming
+    Open bazaar or trading hub
+    Entertainment and nightlife
+    Military post
+    Mercenary Haven/Drinking Hole
+    Last fuel stop before the void
+    Criminal enterprise
+  Curiosities
+    Open air produce market for local families that appears along the spinal corridor once every three core standard days. The produce is grown in bags and tends to be oddly shaped and very juicy. Most spacers prefer it that way.
+    A wizened hermit who can see the future with about 50% accuracy for any given reading (you can roll for this, if you like). They can’t see more than a day or so into the future and live mostly off donations. They claim to be a former operative of the UIB – Union Intelligence Bureau – who acquired their abilities during clandestine operations.
+    A large population of feral kraits – dog-sized crustaceans that have adapted almost perfectly for life on stations. They make excellent pets, produce very little waste, and consume very little food and water.
+    A cluttered chop shop for cyberware and prosthetics, as well as a low-cost wetware-installation and repair facility. The operation is run by an aging doctor with increasingly poor hearing and eyesight who enjoys the respect and custom of the locals. Everything is clean, despite appearances.
+    A water hub where locals must show up daily to receive their water ration. Over time, the hub has transformed into an impromptu social club and cafe where the local variation on tea and biscuits is served in bulk, and for very cheap. The site remains open around the clock despite the distribution period being only a few hours.
+    A set of exposed thermal pipes used by most of the locals to do their cooking despite many complaints from engineering. The area around the pipes is sweltering and full of amazing smells.
+    A HORUS technocult blister attached to the side of the station by a punch corridor and several umbilicals. The cult trades for food with the locals in return for information. Station admin steadfastly denies their existence, despite their operation being in plain sight.
+    A gang of station kids who will trade information for off-station food, with a vast preference for candy. It seems like they can get into nearly anything on the station (including off-limits or clandestine areas) and are total shitkickers in a fight.
+    A man called the Groundskeeper who has a reputation as a master forger. He can spoof most IFF signatures, ship transponders, badges of office, and official papers – for a price. He lives in a ramshackle barge attached to the station, but ready to leave any time.
+    An old Schedule 2 printer, although it is in terrible shape and clogged with back-orders. The printer facility is run by an overworked officer whose operating floor space is about 90 percent paperwork and old servers by volume
+    “The best burger joint in the Orion Arm”, run by a Sparri technoshaman who claims to have invented a new stasis freezing technique for keeping meat fresh on long-haul journeys. Don’t ask too much about it or they get testy. The burgers live up to the hype.
+    A humble shrine or fine temple to Christ the Buddha, usually adorned with lanterns. Please remove your shoes before entering.
+    A cramped but characterful cinema run by an enthusiast who grew up in the Rim. It is slightly outdated and tends to get the most recent stuff from the Capital worlds pretty late; in the meantime, there is a well-curated program of old films.
+    An opulent pleasure barge has been stranded at the station for several weeks. The Smith- Shimano executive who resides there is extremely upset at the refueling delay and believes it to be intentional. They are eager for help in freeing themselves from the administrative and bureaucratic red tape keeping them there.
+    A gambling and gaming hall built alongside the main concourse. It is populated at all hours and doubles as a bar and smoking lounge. The popular Sparri board game kapkat is played here, and the sound of jingling machines can be heard up and down nearby areas of the station. The makeshift casino often hosts live shows and impromptu fights.
+    An inactive IPS-N Tortuga has been welded into the station wall and serves as a power source. It is seen as a mascot or guardian by the locals.
+    Down a back-alley maintenance corridor behind a bar, seekers can find gliss. These crustaceans have powerful narcotic effects; most people smoke them right out of their shells.
+    An overgrown hydro farm that has broken into the station’s pipes, causing large parts of the station to become humid and lush with dark green or purple foliage. Rather than clear out the growth, the station managers have turned the overgrown areas into resources for station food, medicine, and trade goods.
+    A weapons dealer does business out of an old apartment stack. They always have coffee brewing and are friendly, but you know it’s all business. They employ a large population of aging and imported ISP-N subalterns to assist.
+    The House of Cats: a jazz cafe, bar, restaurant, gambling parlor, and house of courtesans. It is never closed, extremely loud, and designed to drain all your loose manna and station credit. The establishment is garishly decorated in the style of old Terran palatial estates. In offers a fun time, but it is dangerous to get too attached.
+  Problems
+    The station’s orbit is decaying and it will fall into the nearest star or planetary body in the next year or so. A deadlock between engineering and leadership has prevented anything from being done about this.
+    A cycle of blood debts has led to a huge feud between several families on the station. Skirmishes with knives and guns are common in the streets, and the locals who haven’t fled have gone into lockdown.
+    The station’s life support systems are in desperate need of repair. Parts of the station have no light or air, or are massively hot or cold. To make matters worse, the engineering team sent into Life Support to fix the problem never fixed it, never returned, and won’t respond to communications requests.
+    A Volador has died of (seemingly) natural causes while on a diplomatic mission to the station: there is absolutely no protocol for how to deal with burial, and the station’s leaders don’t know how to get in contact with los Voladores to let them know.
+    The station administrator’s child has gone missing.
+    The station is infested with a population of unusually large predatory kraits that are currently plaguing the maintenance and hydroponics decks.
+    A corrupt political boss holds sway over station resources and refuses to budge without proper deference or bribes. They claim they are bringing order to the station and have given the population an ultimatum delivered at the barrels of their security forces’ guns: knuckle under or get spaced.
+    There’s been another gruesome murder – the third in a month. It’s clear now that there’s a serial killer on the station.
+    The stations’ spin sections are out of alignment and the wobbling toruses sometimes spin a little too close, causing “gravity” outages and wild fluctuations. It needs fixing, and soon: station engineers predict that left unfixed, these gravity fluctuations could tear the station apart.
+    An unregistered skip vessel from the Dawnline Shore has docked at the station. The passengers claim to be political dissidents in need of sanctuary, which has sparked a divisive debate aboard the station: some think they should be granted asylum, while others fret about the station’s resource budget. All the while, a Harrison Armory (or Karrakin) patrol burns towards the station, sure to spark a confrontation when they arrive.
+    A pirate or marauder band has parked nearby and frequently raids the station or its visitors to exact tribute. The station’s enterprise is refusing to send protection teams until the locals pony up and pay for missing protection payments, so the raids continue. The people are in need of help, but any assistance is sure to piss off both the marauder’s enterprise and the local station’s enterprise.
+    An apocalyptic cult has filtered into the station, placing some of their adherents in important infrastructure and security positions. Left unchecked, their eschatological designs will see the end of the station and – possibly – have consequences for nearby sectors of the Long Rim.
+    The station is a de-facto haven for narcotics smugglers. Gliss, brighteyes, gazer – whatever you want, you can get it here. The only problem is that these smugglers are unaffiliated, and a pair of rival enterprises seem ready to “negotiate” ownership, whether the station wants them to or not.
+    Supplies are critically short and hoarding is commonplace. Regular shipments have been “delayed” by a local cordon – either at the hands of an enterprise or a more legitimate power – and the locals are getting desperate for relief.
+    The station’s population has grown massively in recent years, putting a significant strain on resources. Some factions argue that an exodus is necessary, while others advocate for opening up long-sealed sections of the station and exploiting the open space. Those sections, though, have been sealed for a reason…
+    A popular revolution has recently overthrown the station’s previous owners and the situation is still volatile; the revolutionary group has issued a broad-band call for support and fighters, but this has also alerted a nearby enterprise that sees this as an opportunity for them to expand its own territory.
+    The station was recently abandoned by Harrison Armory, who pulled almost all funding, resources, and security and left without explanation. The local population, beleaguered, is searching for answers; meanwhile, a skeleton team of Armory personnel can be seen operating in sealed-off sections of the station, unresponsive to the local populations’ petitions for information.
+    A Sparri mercenary company rolls through at regular intervals and trashes the place with wild partying. They’re good business, but they leave a mess, and it’s starting to grate on the locals.
+    A HORUS cell keeps threatening to redirect an asteroid into the station if they are not paid at regular intervals.
+    The station is a neutral territory for several Rim enterprises that use it as a marketplace and diplomatic hub. Because of this, when the main concourse is bombed, the enterprises all suspect each other, and the tenuous diplomatic arrangement begins to grow tenser and tenser.
+  
+Station_NPC
+  Name = {[characterNameGenerator.output1]|[characterNameGenerator.output2]|[characterNameGenerator.output3]}
+  Descriptor
+    Exhausted
+    Sexy
+    Filthy
+    Corpulent
+    Cocky
+    Starving
+    Gloomy
+    Stranded
+    Passionate
+    Loud
+    Stoic
+    Part-time
+    Sweaty
+    Cigarette-Smoking
+    Flamboyant
+    Beefy
+    Nervous
+    Gruff
+    Well-Armed
+    Thrifty 
+  Primary_Occupation
+    Foreman
+    Stevedore
+    Goon
+    “Sheriff”
+    Bureaucrat
+    Fence
+    Sex Worker
+    Security Guard
+    Gravity Racer
+    Political Boss
+    Nearlight drive technician
+    Monk
+    Station Engineer
+    Night Mayor
+    Marine
+    Urchin
+    Medical Technician
+    Bounty Hunter
+  Alt_Occupation
+    Chop shop doctor
+    Petty Thief
+    Corpro Intelligence (Undercover)
+    Smuggler
+    Stowaway from the Core, seeking passage out to the Dawnline Shore
+    Refugee from the Dawnline Shore, seeking safe ground
+    Dealer in exotic flora and fauna
+    Remote-activated killer, aware or not of their true nature
+    Swindler
+    Weapons dealer
+    Zero-g Farmer
+    Pilgrim
+    Ungrateful partisan
+    Private Eye
+    Muckraker
+    Harbor, Charter, or Enterprise Pilot HORUS cell member
+    Local Fixer
+    Union or Harrison Armory Veteran
+    Addict (brighteyes, gliss, gazer, etc)
+    Horizon collectivist
+    Pit fighter
+  Quirk
+    An oversized, distinctive, or otherwise notable hat or headgear.
+    One eye is covered by an eye patch, is a noticeable prosthetic, or has been replaced with something decorative.
+    Old burn scars, visible even when clothed.
+    Constantly reaching for, moving with reference to, or tapping weapon.
+    Dresses in garish clothing.
+    Often drunk, or otherwise intoxicated.
+    A pathological liar (you think).
+    Very well connected, or related to about half the station.
+    Knows jack shit about mechs, lancers, or pilots, but pretends they do.
+    Has an exotic pet.
+    Much taller than a person born downwell due to a life spent in artificial gravity.
+    Often carries pamphlets of Ungrateful, HORUS, or Horizon propaganda.
+    Has an excellent mental map of the station.
+    Wears cracked eyeglasses.
+    Has one or more visibly cybernetic limbs, in poor repair and condition.
+    Used to be a lancer.
+    Covered head to toe in Sparri saga tattoos, may or may not be Sparri.
+    Does not speak Union Common, but can communicate using an automatic translator.
+    Impressive hair or facial hair.
+    Often followed, willingly or not, by innumerable dock rats or street urchins
+  Motivation
+    Desire
+      Access To
+      Safety of
+      Information on
+      Transport for
+      Possession of
+      Elimination of
+      Hiding of
+      Cover for
+      Return of
+      Retribution for
+    Object
+      Food
+      Dangerous, rare or expensive flora or fauna
+      Family
+      Weapons
+      Debt
+      High quality narcotics
+      Reputation
+      Blackmail
+      Workers
+      A local politician, VIP, or enterprise middleman.
+  
+Long_Rim_Drinks
+  First
+    Virgin
+    Brain
+    Five Finger
+    Pain
+    Xiaoli's
+    Tiger
+    Corpse
+    Carina
+    Ass
+    Rhino
+  Last
+    Destroyer
+    Buller
+    Reviver
+    Highball
+    Juice
+    Punch
+    -tini
+    Grinder
+    Mule
+    Sour
+
+Pirates
+  Name
+    First
+      Colossal
+      Skull
+      Vector
+      Red
+      Realspace
+      Tiger
+      Fifty Talent
+      108
+      The All-
+      Strong
+      The Big
+      The Long
+      The/Los
+      The Free
+      The Golden
+      Pack
+      Private Company
+      Unlimited
+      Transit
+      Skyside
+    Last
+      Devils
+      Gods
+      Family
+      Tigers
+      Company
+      Hunters
+      Dogs
+      Triad
+      Kings
+      Solutions Unlimited
+      Gunners
+      Howlers
+      Calaveras
+      Runners
+      Group
+      Bosses
+      Patrol
+      Rimside
+      Interstellar
+      Interstation
+  Hustle
+    Toll taking: Exaction of rent, bribes, tribute, or labor from local stations, freighters, or other passers-by.
+    Trafficking: Slavery and the smuggling of people (natural-born or clones), typically for unpaid labor.
+    Hĳacking: Direct capture of ships, typically for ransom, but sometimes for parts.
+    Smuggling: Surreptitious transport of goods (illicit, normal, or unsavory) to avoid tariffs, taxes, embargoes, blockades, or fees.
+    Monopoly: Absolute control of a necessary resource – like fuel, water, or food – in the local area.
+    Kidnapping: Capture of VIPs , typically as hostages to secure ransom payments.
+    Raiding: Direct, violent assault on passing ships or vulnerable stations to forcibly take resources or people for use or sale.
+    Mercenaries: Soldiers for hire on a contract basis.
+    Narcotics: Manufacture and distribution of narcotics.
+    Horde: A rare type of group, constantly on the move. Hordes have no allies but may wield influence over cowed or oppressed populations that they command with threats of punishment. Hordes survive solely by raiding stations and ships that they deem vulnerable and valuable. They typically grow by pressing captives into service or conscripting from local populations at gunpoint. Hordes rarely last more than a few months before dispersing, though some are large enough to follow a pattern of seasonal or tidal surges and droughts
+  Main_Asset
+    A fully armed warship kept in excellent shape. This ship was taken from Union or a state navy and although an older model, it is still deadly compared to other ships in the Rim. It has a spinal cannon or significant ordinance, plentiful batteries of cannons or lances, and is capable of destroying a station if its commander wishes. It might be used as a mobile base of operations.
+    A well-armed squad of 4-5 Elite mechs.
+    An impeccably hidden base, located in a cloud of debris or a dead zone that confuses sensors.
+    A titanic, unique mech. You can build this as a Size 4 mech with the Ultra template. It is is well- armored enough to tackle ships and may require multiple pilots to crew.
+    An NHP that acts as a powerful advisor or a de facto leader. Rare for the Rim, this NHP is maintained by a team of skilled technicians, and grants a powerful advantage to its organization.
+    A powerful hacking corps that works out of an old comms station. They are capable of stealing ships and redirecting supplies without firing a shot, and they usually avoid direct conflict.
+    A long-range, space-to-space kinetic weapon platform that can easily disable passing ships and threaten stations. Its power source is buried deep inside an asteroid and it can only fire once every hour or so.
+    A small army (50-100 units) of combat subalterns armed with energy weapons.
+    A sub-blink snare – a temperamental, nonlethal anti-ship system that can disable ships’ reactors without harming their crew. It needs a central activator on a ship or nearby station to hold a ship in place.
+    A leashed asteroid at least 6 miles (or 10 kilometers) in diameter. Can be redirected, albeit slowly, to threaten stations or ships
+  
+Enterprises
+  Name = [enterpriseNameGenerator] // Generated by https://www.scifiideas.com/scifi-company-name-generator/
+  Holdings
+    A fleet of asteroids rich in rare minerals, bound into a closely-guarded orbit and protected by loyal cosmopolitan guards.
+    The only pilots capable of navigating a treacherous corridor of null-blink space, and the knowledge to train more.
+    The best supply of fresh water in the region, and the infrastructure to hygienically process, package, and distribute it.
+    A collection of fabrication plants ready to produce GMS hulls, components, and parts; for the right price, the Enterprise can also procure licensed materials.
+    A reliable method of contacting los Voladores, plus first pick of prime Volador artifacts, goods, and technology for outfitting their stations.
+    The contract to guarantee passage for IPS-N bureaucrats from Rào Cỏ Station to the Dawnline Shore, as well as support from IPS-N Trunk Security forces.
+    The ability to produce blink transponder codes capable of clearing Union code- checks, and the largesse to reward loyalty with them.
+    A monopoly on viable cloning processes and the accounts of the leadership of many other enterprises.
+    Strength guaranteed — via clandestine channels — by a major power with interests in the Dawnline Shore (e.g. Harrison Armory or the Karrakin Trade Barons).
+    The standard currency that Long Rim populations use for banking and trade – until they can convert it into manna, that is.
+  Representatives
+    A kind but low-ranking member. The can’t offer any real support on behalf of the Enterprise other than their word and the largesse of their commanding officer, manager, or foreman.
+    A middleweight bureaucrat with an ear to the ground. While loyal to their Enterprise, they count you as a good friend.
+    An experienced harbor pilot, recently promoted by their Enterprise to the post of customs master at an important station.
+    The leader of a pirate crew that has been contracted to work with the Enterprise.
+    An officer in the Enterprise’s corps of loyal guards.
+    A member of the Enterprise’s station-level police force (e.g., a beat cop, a detective, or similar).
+    A fixer for the Enterprise.
+    A ship captain who flies under the Enterprise’s flag.
+    The kid of an Enterprise’s leader.
+    The leader of the Enterprise, who will always grant you an audience – as long as you stay on their good side and remember who is in charge
+  Strength
+    Meagre: The Enterprise is allowed to exist by the other enterprises because it is a useful dumping ground, patsy, or easy victim. No one works with it for long, and it it likely only a matter of time before its last remaining station falls to one of the other Enterprises.
+    Modest: This Enterprise controls a modest complement of stations with a small but loyal guard corps; the bulk of its strength comes from outside hires, who its leaders can afford to pay for their loyalty.
+    Middling: The number of loyal guard to mercenaries is nearly 1:1. This Enterprise likely commands a series of popular but noncritical stations.
+    Substantial: The Enterprise holds an important checkpoint, fueling, or resupply station, and it can afford to pay its mercenaries well and then some. Its leadership feels comfortable bullying smaller Enterprises when necessary, but they generally stay in their own lane – always a bigger fish, after all.
+    Mighty: In command of a large fighting force and mighty economic base, this Enterprise can field older-model fighters, bombers, and corvettes, and is likely on the radar of the major powers – for good and for ill. Its influence spreads out into the Long Rim, and its leaders aren’t afraid to throw their power around, implicitly or explicitly, to get smaller Enterprises to do what they want, to annex independent stations, and even muscle in on outside powers’ presence in the Rim.
+    Focused (Legitimate Connections): This Enterprise has clandestine or overt connections to one of the major powers with an interest in the Dawnline Shore. This legitimacy insulates it from some of that power’s enforcement activities and provides marked economic benefits as well.
+    Focused (Knowledge): This Enterprise may or may not be mighty in military strength, but it guards a deep, secret knowledge valued by all of the other Enterprises and at least one major power. Unfortunately for them, this Enterprise is damn good at not giving up its knowledge – unless the price is right, or the cost for withholding too steep.
+    Focused (Coin): This Enterprise is one of the wealthiest and likely sets the terms by which all others conduct their markets and economic affairs. Managing the economy is a hassle for the other Enterprises, but participating in it is an unassailable boon. For the time being, the other Enterprises are happy to let this one continue to manage the Rim’s accounts, be the target of their collective grumblings, and prevent all-out war in doing so.
+    Focused (Goods): This Enterprise has multiple monopolies on necessary luxury goods that are difficult or costly to procure. The other Enterprises don’t have the capacity to produce these goods and are content to let this Enterprise take the lead. While other Enterprises may gripe about the price, they generally all have a favorable view of this Enterprise on account of the goods they produce.
+    Titanic: This Enterprise controls multiple refurbished warships crewed by veteran spacers and loyal, disciplined marines. It commands thousands of well-seasoned fighters and a few pilots – arguably lancers, in another life – who operate personal chassis. No other Enterprise will face this one down, as that would certainly mean total destruction. The major powers have extensive dossiers on this Enterprise’s personnel and likely have contingency plans to strike and eliminate its leaders and military might if need be; by the same token, this Enterprise may have designs beyond the Long Rim.
+  
+Volador_Curiosites
+  An etched osmium panel three feet across and no more than an inch thick, set in a clear protective frame. It appears to be a fragment of a much larger work – a bas relief depicting stylized human figures in supplication to a monolith. The monolith is inlaid with a single, thin chip of an unidentifiable black mineral.
+  A small vial of stable, liquid oganesson. According to los Voladores, this vial represents the highest concentration of the element in the known galaxy — and they promise more.
+  A bauble only visible by the slim lens of realspace bent around it. The bauble floats above a crude, hammered golden plate, humming just at the edge of your hearing. Wherever the plate moves, so too does the bauble. Los Voladores caution against touching the bauble, recommending that the buyer simply stare into it and contemplate its meaning.
+  A nearly complete human skeleton painted in faded green paint, detailed with delicate flowers and creeping vines. It rests within an ancient spacesuit, arms crossed over its chest, bound in rope. Its skull, visible through its cracked faceplate, is layered with lamellar chips of lapis lazuli, gold, and black opal.
+  A bolt of crimson cloth, thick and finely woven, shredded and burnt at one end. Trace amounts of blood can be detected on the cloth. Los Voladores indicate that it was recovered from Aunic space and is known as a “glory”.
+  A dull grey panel of unknown depth. When you look at it, you imagine you can see memories remembered in the moment, but forgotten until you viewed them; sometimes, you see yourself, out of focus but just recognizable enough to be sure that it is you.
+  A blade of unknown make and metal, finely crafted, but broken from its hilt and handle, which is missing. Upon closer inspection, faint light can be seen shimmering from the cleft. The blade is suspended in the center of a clear, leaden containment unit because it is – they inform you – incredibly radioactive.
+  A paper journal with a stained, faded green linen cover. Inside are the inked notes of an anonymous author, detailing a solitary relativistic journey out from “Earth” to something called the “Helios Gate”. The journal ends with an entry indicating the traveler’s arrival is imminent; the rest of the pages are blank.
+  A 3-foot platinum staff inlaid with golden rings that demarcate distinct sections along its length. Los Voladores inform you that the staff is one of a pair and they are still searching for its twin – they promise to contact you once it is found, so that you may complete your collection.
+  A silver mask shaped into a human visage. It appears to have many thousands of connecting points, suggesting that it attaches to a larger unit, and once connected, would be powered and capable of information transfer. On the inside of the face, faded grease-pen words read “MAGGIE V.C. 43/37”.
+  An artifact from Hercynia: a nodule of carved human bone. You can look at it, but not too close: the fine detail evident on the carved bone resists the eye, curdles the stomach, and leaves your head pounding. It is obviously more than a bone, but what it is meant to impart is unclear...
+  A porcelain disc with an imperceptible seam, revealed with a touch. When pulled apart, the space between the halves of the disc shimmers as if seen from a distance in high summer. Los Voladores tell you not to touch the shimmering space and to hold the disc apart only for a moment, to see what you need to see.
+  A thin, fibrous metal netting, folded and resting on a wooden plank. Los Voladores tell you not to unfold it, as it measures many dozens of mile across and is only contained while in its current state.
+  A diadem of glass shards in orbit around a mirrored sphere. It was once whole, los Voladores tell you, and it never should be remade. They offer it to you so that you can dispose of it in realspace, per agreements made among their matria.
+  A set of fine indigo robes patched with natural white cloth. You realize that they are of the same style of robes worn by some of los Voladores present. When you ask if they are Volador robes, the speaker politely informs you that they were the robes of a Volador.
+  A rusted panel recovered from Enceladus with one finished, carved face and a rough blank face – as if it were lifted directly from the surface in which it was implanted. The carved face is covered in text and pictograms, and according to a small card los Voladores have included, it can be dated to a pre-Fall epoch.
+  A mundane hand-slate that displays a rapidly shifting coordinate field: when asked what the coordinates lead to, los Voladores ask you to find out. At first, the displayed coordinates seem random, but after investigation, it appears they conform to a pattern.
+  A shard of a perception-dependent material held in a containment unit; upon observation, the substance seems to shift states, flashing between solid objects of organic and inorganic material. Los Voladores caution you never to open the containment unit, but to study it, learn its pattern, and then destroy it.
+  Something you have been looking for, for a very long time. When asked how they obtained it, los Voladores tell you that it was the correct time for them to obtain it; they offer it to you, but it is the only object you are allowed to leave with.
+  The mask, helm, and mantle of a Volador. It is dim, as if missing a certain light you did not realize illuminated that of a living Volador. Los Voladores tell you that it is the crown of an exile, who wished for one of the gente to have it when they reached their end. They offer it to you without reservation, and request that you maintain it with pride, but never wear it.
+
+Diving
+  Gain
+    A splitting headache.
+    A ledger with a long list of names in it. The corner is spotted with blood, and some of the names are crossed off.
+    A large canister of slick, vibrant purple liquid labeled “All Purpose Lubricant”.
+    A brand new and very elaborate Sparri saga tattoo.
+    A very dry mouth.
+    An elaborately decorated carnival mask with eyes that seem to follow you. You can’t remember exactly how you acquired it.
+    An outstanding warrant for your arrest.
+    A very mild addiction to gliss, brighteyes, or gazer.
+    A mini-fridge full of sensitive biological samples wanted by an Enterprise.
+    A station security officer who is very obviously attempting to follow you without you noticing.
+    A brand new station disease that causes you to break out into hives when someone touches you skin to skin. It’ll clear up in a week.
+    A thick data wafer with a carefully curated selection of old earth jazz.
+    An enormous debt to the station crime syndicate.
+    A large, chitinous, and very affectionate pet krait.
+    A revolver with one spent bullet in the chamber.
+    A reputation as “Mistress”.
+    The meat-sweats.
+    A pack of unlabeled and suspicious-smelling cigarettes.
+    A hanger-on named ‘Juicy K’. Juicy is a huge fan of you and not very quick on the uptake, but is extremely knowledgable about station gossip, current Long Rim pop culture, and varying interesting and creative uses of popular narcotics. They refuse to leave if asked and generally believe the two of you are best friends.
+    A thick pack of stripped dataplating packed densely with incredibly sensitive information (e.g., military schedules, personal financial records, etc).
+  Loss
+    Your memory of the previous night.
+    Your dignity (if you had any).
+    Your sense of balance for the next few hours.
+    Any weapons you had with you. You can find them being sold on the station black market over the next few days.
+    Your sense of smell for the next few days.
+    Pretty much everything in your stomach from the last day or so.
+    Any personal identification, station passes, or important documentation you had on you. Within a few minutes, you get a message demanding a ransom for their return.
+    About two or three days of subjective time.
+    All the sensation in your fingertips for the next day or so.
+    All your hair (it’ll grow back).
+    Your pants.
+    A large part of the skin on your left arm, currently swaddled in a bandage you don’t remember having applied.
+    Your largely positive opinion of the station.
+    Your sense of direction.
+    Any station credit or loose change you had on you.
+    Movement in your face and the ability to feel your tongue for about an hour or so.
+    A knife fight.
+    Your shoes. You’ll spot a station kid wearing them in about an hour.
+    One fingernail.
+    Free travel around the station, which will be restricted for a while
+  
+Collateral_Damage
+  Your shot misses, flying wide and piercing the wall behind your target. The projectile either hurtles out into space, causing no further damage; lodges in the hard stone of the asteroid foundation; or crashes through a series of bulkheads before embedding itself in a sturdy section of superstructure.^6
+  Your shot flies wide, punching through a wall behind your target. The wall dissolves, explosively decompressing along predefined fail points and exposing this section of the station to hard vacuum. Sirens howl, the sound fading as air rushes out; emergency airlock doors slam shut, cutting this deck off from the rest of the facility.
+  You miss, and the burst from your weapon punctures the thin wall behind your target. You continue fighting; there’s no way for you to know that it pierced multiple decks, slicing through people and critical infrastructure before exploding into a crowded evacuation corridor, killing dozens who were taking shelter there.
+  Your target ducks away just in time, sending your fire wide. The shots tumble and tear through the station, destroying potable water pipes, puncturing air ducts, filleting both sensor membranes and critical wiring. The accumulated damage is incredible, and as the fight continues, more and more warning indicators pop up on the station’s public broadcast panels. The whole thing might come down if the damage isn’t dealt with.
+  Your shot connects with your target, piercing through a non-vital section of their chassis and continuing out the other side. The heavy slug shreds the cheap printcrete bulkhead and tumbles into a local stability gyro, knocking the system out of alignment. Gravity begins to shift – subtly at first – and will tumble out of alignment if not dealt with soon.
+  Your beam skips off your target’s armor, splattering coherent particles across the wall beyond. Some slip through, instantly superheating the waste and potable water piping – the resultant explosion ripples out, up, and down, blasting boiling gouts of steam across this deck and all those proximal to it.
+  Your beam impacts its target and micro-perforates, scattering incredible energies at pinpoint tips across the terrain behind your target. The particles crash through a civilian market, rupturing water and fuel tanks, collapsing bars, and triggering rapid-spread fires that thrive in the richly oxygenated environment. Anything living caught in the splash zone, if not killed outright, is terribly wounded – the survivors and walking wounded hurry to respond to the fire as it rapidly spreads, navigating around the ruined station to flee or fight.
+  Your beam misses its mark, boiling a hole through the bulkhead behind your target. It punches through to a hangar on the opposite side of the station, slicing open a coldcore storage unit and severing a docked ship’s umbilical. The beleaguered deck techs hurry to respond to the spilled radiation while harbor pilots hurry to catch the loosed ship before it tumbles away into the void.
+
+
+// Tips:
+//  - Highlight multiple lines and press Tab or Shift+Tab to indent and un-indent them all an once
+//  - You can change the URL of your generator by clicking the "settings" button in the top-right
+//  - Use this template if you want your generator to be vertically centered on the page:  perchance.org/centered-minimal#edit
+//  - Add background images, fonts, and other stuff with plugins: perchance.org/plugins
+//  - Here are some templates that you can use to create nice-looking generators without learning HTML and CSS:  perchance.org/templates
+//  - Use the "layout maker" plugin to create complex layouts without learning how to code:  perchance.org/layout-maker-plugin
+//  - Here are some generators you might like to import:  perchance.org/useful-generators
+//  - Read this page after reading the tutorial:  perchance.org/examples
+//  - There's a "wrap" button in the top-right if your lines are really long. If you add   $output=[this.joinItems(" ")]   as the first item in your list, then writing [yourListName] will magically output all of the items joined together, rather than a random item from the "yourListName" list.
+//  - Ask our friendly community members if you need help:  reddit.com/r/perchance
+// \( ﾟヮﾟ)/

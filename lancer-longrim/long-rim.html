@@ -1,0 +1,116 @@
+<h1>Lancer: Long Rim</h1>
+
+<h2>Station</h2>
+<div style="margin:1em auto; padding:0 1em; max-width:700px;" id="station">
+    <h4>Name</h4>
+    <p>[Station.Name]</p>
+
+    <h4>Seed</h4>
+    <p>[Station.Seed]</p>
+
+    <h4>Purpose</h4>
+    <p>[Station.Purpose]</p>
+
+    <h4>Districts</h4>
+    <ul style="margin:1em auto; padding:0 1em; max-width:250px;">
+        <li>[districts = Station.District.consumableList]</li>
+        <li>[districts]</li>
+        <li>[districts]</li>
+    </ul>
+
+    <h4>Curiosities</h4>
+    <p>[Station.Curiosities]</p>
+
+    <h4>Problems</h4>
+    <p>[Station.Problems]</p>
+</div>
+<button onclick="update(station)">randomize</button>
+<hr>
+
+<h2>Station NPC</h2>
+<div style="margin:1em auto; padding:0 1em; max-width:700px;" id="stationNPC">
+    <h4>Name</h4>
+    <p>[Station_NPC.Name]</p>
+
+    <h4>Descriptors</h4>
+    <p>[desc = Station_NPC.Descriptor.consumableList] and [desc]</p>
+
+    <h4>Occupation</h4>
+    <p>[Station_NPC.Primary_Occupation]</p>
+
+    <h4>Alt./Clandestine Occupation</h4>
+    <p>[Station_NPC.Alt_Occupation]</p>
+
+    <h4>Quirk</h4>
+    <p>[Station_NPC.Quirk]</p>
+
+    <h4>Motivation</h4>
+    <p>[Station_NPC.Motivation.Desire] [Station_NPC.Motivation.Object]</p>
+</div>
+<button onclick="update(stationNPC)">randomize</button>
+<hr>
+
+<h2>Long Rim Drinks</h2>
+<div style="margin:1em auto; padding:0 1em; max-width:250px;" id="drinks">
+    <ul>
+        <li>[first = Long_Rim_Drinks.First.consumableList] [last = Long_Rim_Drinks.Last.consumableList]</li>
+        <li>[first] [last]</li>
+        <li>[first] [last]</li>
+        <li>[first] [last]</li>
+        <li>[first] [last]</li>
+        <li>[first] [last]</li>
+    </ul>
+</div>
+<button onclick="update(drinks)">randomize</button>
+<hr>
+
+<h2>Pirates</h2>
+<div style="margin:1em auto; padding:0 1em; max-width:700px;" id="pirates">
+    <h4>Name</h4>
+    <p>[Pirates.Name.First] [Pirates.Name.Last]</p>
+
+    <h4>Hustle</h4>
+    <p>[Pirates.Hustle]</p>
+
+    <h4>Main Asset</h4>
+    <p>[Pirates.Main_Asset]</p>
+</div>
+<button onclick="update(pirates)">randomize</button>
+<hr>
+
+<h2>Enterprise</h2>
+<div style="margin:1em auto; padding:0 1em; max-width:700px;" id="enterprise">
+    <h4>Name</h4>
+    <p>[Enterprises.Name]</p>
+
+    <h4>Holdings</h4>
+    <p>[Enterprises.Holdings]</p>
+
+    <h4>Representatives</h4>
+    <p>[Enterprises.Representatives]</p>
+
+    <h4>Strength</h4>
+    <p>[Enterprises.Strength]</p>
+</div>
+<hr>
+
+<h2>Volador Curiosity</h2>
+<p style="margin:1em auto; padding:0 1em; max-width:700px;" id="volador">[Volador_Curiosites]</p>
+<button onclick="update(volador)">randomize</button>
+<hr>
+
+<h2>Diving Gain/Loss</h2>
+<div style="margin:1em auto; padding:0 1em; max-width:700px;" id="diving">
+    <h4>Gain</h4>
+    <p>[Diving.Gain]</p>
+
+    <h4>Loss</h4>
+    <p>[Diving.Loss]</p>
+</div>
+<button onclick="update(diving)">randomize</button>
+<hr>
+
+<h2>Collateral Damage</h2>
+<p style="margin:1em auto; padding:0 1em; max-width:700px;" id="dmg">[Collateral_Damage]</p>
+<button onclick="update(dmg)">randomize</button>
+<hr>
