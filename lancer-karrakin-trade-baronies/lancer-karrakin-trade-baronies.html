@@ -1,0 +1,146 @@
+<h1>Lancer: Karrakin Trade Baronies</h1>
+
+<h2>Faction</h2>
+<div style="margin:1em auto; padding:0 1em; max-width:700px;" id="faction">
+    <h4>Type</h4>
+    <p>[type = Factions.Type, Factions.Type[type]]</p>
+
+    <h4>Power</h4>
+    <p>[Factions.Power]</p>
+
+    <h4>Details</h4>
+    <p>[desc = Factions.Details.Descriptors.consumableList]</p>
+    <p>[desc]</p>
+
+    <h4>Desire</h4>
+    <p>[dAndF = Factions.Details.DesiresAndFears.consumableList]</p>
+
+    <h4>Fear</h4>
+    <p>[dAndF]</p>
+
+    <h4>Significant Object</h4>
+    <p>[Factions.Details.SignificantObject]</p> 
+
+    <h4>Significant Incident</h4>
+    <p>[Factions.Details.SignificantIncident]</p> 
+
+    <h4>Significant Location</h4>
+    <p>[Factions.Details.SignificantLocation]</p> 
+
+    <h4>Interesting People</h4>
+    <p>[Factions.Details.InterestingPeople]</p> 
+</div>
+<button onclick="update(faction)">randomize</button>
+<hr>
+
+<h2>Baronic House</h2>
+<div style="margin:1em auto; padding:0 1em; max-width:700px;" id="baronic_house">
+    <h4>Name</h4>
+    <p>[Baronic_House.Name]</p>
+
+    <h4>Heraldry</h4>
+    <p>[Baronic_House.Heraldry]</p>
+
+    <h4>Color</h4>
+    <p>[Baronic_House.Primary_Color]</p>
+
+    <h4>Motto</h4>
+    <p>[Baronic_House.Motto.First] [Baronic_House.Motto.Last]</p>
+</div>
+<button onclick="update(baronic_house)">randomize</button>
+<hr>
+
+<h2>Faction Aid</h2>
+<div style="margin:1em auto; padding:0 1em; max-width:700px;" id="aid">
+    <h4>Will Faction Aid</h4>
+    <p>[Factions.WillFactionAid]</p>
+
+    <h4>Strings attached to Faction Aid</h4>
+    <p>[Factions.FactionStrings]</p>
+
+    <h4>Tactical Aid</h4>
+    <p>[Factions.Aid.Tactical]</p>
+
+    <h4>Narrative Aid</h4>
+    <p>[Factions.Aid.Narrative]</p>
+</div>
+<button onclick="update(aid)">randomize</button>
+<hr>
+
+<h2>Faction Interference</h2>
+<div style="margin:1em auto; padding:0 1em; max-width:700px;" id="interfere">
+    <h4>Will Faction Interfere</h4>
+    <p>[Factions.WillFactionInterfere]</p>
+
+    <h4>Needed Payment to avoid Interference</h4>
+    <p>[Factions.FactionPayment]</p>
+
+    <h4>Tactical Interference</h4>
+    <p>[Factions.Interference.Tactical]</p>
+
+    <h4>Narrative Interference</h4>
+    <p>[Factions.Interference.Narrative]</p>
+</div>
+<button onclick="update(interfere)">randomize</button>
+<hr>
+<div style="margin:1em auto; padding:0 1em;" id="map_forge">
+    <h2>Map Forge</h2>
+    <select onchange="update(map_forge)" oninput="mapType = this.value" name="map_type" id="map_type">
+        <option value="Urban">Urban</option>
+        <option value="Regional">Regional</option>
+        <option value="System">System</option>
+    </select>
+    |
+    <button onclick="update(map_forge)">randomize</button>
+
+    <br>
+
+    <style>
+        #map-forge {
+            border: 1px solid black;
+            width: 50%;
+            margin-left: 25%;
+            margin-top: 20px;
+        }
+
+        #map-forge tr {
+            height: 100px;
+            border: 1px solid black;
+        }
+
+        #map-forge tr td {
+            width: 25%;
+            border: 1px solid black;
+        }
+    </style>
+
+    <table id="map-forge">
+        <tr>
+            <td>[subType = Map[mapType], Map[mapType][subType]]</td>
+            <td>[subType = Map[mapType], Map[mapType][subType]]</td>
+            <td>[subType = Map[mapType], Map[mapType][subType]]</td>
+            <td>[subType = Map[mapType], Map[mapType][subType]]</td>
+        </tr>
+
+        <tr>
+            <td>[subType = Map[mapType], Map[mapType][subType]]</td>
+            <td>[subType = Map[mapType], Map[mapType][subType]]</td>
+            <td>[subType = Map[mapType], Map[mapType][subType]]</td>
+            <td>[subType = Map[mapType], Map[mapType][subType]]</td>
+        </tr>
+
+        <tr>
+            <td>[subType = Map[mapType], Map[mapType][subType]]</td>
+            <td>[subType = Map[mapType], Map[mapType][subType]]</td>
+            <td>[subType = Map[mapType], Map[mapType][subType]]</td>
+            <td>[subType = Map[mapType], Map[mapType][subType]]</td>
+        </tr>
+
+        <tr>
+            <td>[subType = Map[mapType], Map[mapType][subType]]</td>
+            <td>[subType = Map[mapType], Map[mapType][subType]]</td>
+            <td>[subType = Map[mapType], Map[mapType][subType]]</td>
+            <td>[subType = Map[mapType], Map[mapType][subType]]</td>
+        </tr>
+    </table>
+</div>
