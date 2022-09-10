@@ -1,83 +1,147 @@
-<h1>Pilot</h1>
-<ul>
-    <li id="pilotName">
-        Name: <button onclick="update(pilotName)">[Name]</button>
-    </li>
-    <li id="background">
-        Background: <button onclick="update(background)">[lancerCorebook.Pilot_Background]</button>
-    </li>
-    <li>
-        <h4>Triggers</h4>
-        <ul>
-            <li id="trigger1">
-                <button onclick="update(trigger1)">[trigger = lancerCorebook.Triggers.consumableList]</button>+2
-            </li>
-            <li id="trigger2">
-                <button onclick="update(trigger2)">[trigger]</button>+2
-            </li>
-            <li id="trigger3">
-                <button onclick="update(trigger3)">[trigger]</button>+2
-            </li>
-            <li id="trigger4">
-                <button onclick="update(trigger4)">[trigger]</button>+2
-            </li>
-        </ul>
-    </li>
 
-    <h2>Pilot Gear</h2>
-    <li id="pilotGear">
-        <ul>
-            <li>
-            <h4>Melee:</h4>
-                <ul>
-                    <li id="melee">
-                        <button onclick="update(melee)">[lancerCorebook.Pilot_Gear.Melee_Weapon]</button>
-                    </li>
-                    <li id="meleeDesc">
-                        <button onclick="update(meleeDesc)">[lancerCorebook.Pilot_Gear.Melee_Weapon_Feature]</button>
-                    </li>
-                </ul>
-            </li>
+<main id="app">
+    <h1>Pilot</h1>
+    <ul>
+        <li id="pilotName">
+            Name: <button onclick="update(pilotName)">[Name]</button>
+        </li>
+        <li id="background">
+            Background: <button onclick="update(background)">[lancerCorebook.Pilot_Background]</button>
+        </li>
+        <li>
+            <h4>Triggers</h4>
+            <ul>
+                <li id="trigger1">
+                    <button onclick="update(trigger1)">[trigger = lancerCorebook.Triggers.consumableList]</button>+2
+                </li>
+                <li id="trigger2">
+                    <button onclick="update(trigger2)">[trigger]</button>+2
+                </li>
+                <li id="trigger3">
+                    <button onclick="update(trigger3)">[trigger]</button>+2
+                </li>
+                <li id="trigger4">
+                    <button onclick="update(trigger4)">[trigger]</button>+2
+                </li>
+            </ul>
+        </li>
 
-            <li>
-            <h4>Ranged:</h4>
-                <ul>
-                    <li id="ranged">
-                        <button onclick="update(ranged)">[lancerCorebook.Pilot_Gear.Ranged_Weapon]</button>
-                    </li>
-                    <li id="rangedDesc">
-                        <button onclick="update(rangedDesc)">[lancerCorebook.Pilot_Gear.Ranged_Weapon_Feature]</button>
-                    </li>
-                </ul>
-            </li>
+        <h2>Pilot Gear</h2>
+        <li id="pilotGear">
+            <ul>
+                <li>
+                <h4>Melee:</h4>
+                    <ul>
+                        <li id="melee">
+                            <button onclick="update(melee)">[lancerCorebook.Pilot_Gear.Melee_Weapon]</button>
+                        </li>
+                        <li id="meleeDesc">
+                            <button onclick="update(meleeDesc)">[lancerCorebook.Pilot_Gear.Melee_Weapon_Feature]</button>
+                        </li>
+                    </ul>
+                </li>
 
-            <li>
-            <h4>Hardsuits:</h4>
-                <ul>
-                    <li id="hardsuit">
-                        <button onclick="update(hardsuit)">[lancerCorebook.Pilot_Gear.Hardsuits]</button>
-                    </li>
-                    <li id="hardsuitDesc">
-                        <button onclick="update(hardsuitDesc)">[lancerCorebook.Pilot_Gear.Hardsuits_Features]</button>
-                    </li>
-                </ul>
-            </li>
+                <li>
+                <h4>Ranged:</h4>
+                    <ul>
+                        <li id="ranged">
+                            <button onclick="update(ranged)">[lancerCorebook.Pilot_Gear.Ranged_Weapon]</button>
+                        </li>
+                        <li id="rangedDesc">
+                            <button onclick="update(rangedDesc)">[lancerCorebook.Pilot_Gear.Ranged_Weapon_Feature]</button>
+                        </li>
+                    </ul>
+                </li>
 
-            <li>
-                <h4>Limited Gear</h4>
-                <ul>
-                    <li id="gear1">
-                        <button onclick="update(gear1)">[g = lancerCorebook.Pilot_Gear.Gear.consumableList]</button>
-                    </li>
-                    <li id="gear2">
-                        <button onclick="update(gear2)">[g]</button>
-                    </li>
-                    <li id="gear3">
-                        <button onclick="update(gear3)">[g]</button>
-                    </li>
-                </ul>
-            </li>
-        </ul>
-    </li>
+                <li>
+                <h4>Hardsuits:</h4>
+                    <ul>
+                        <li id="hardsuit">
+                            <button onclick="update(hardsuit)">[lancerCorebook.Pilot_Gear.Hardsuits]</button>
+                        </li>
+                        <li id="hardsuitDesc">
+                            <button onclick="update(hardsuitDesc)">[lancerCorebook.Pilot_Gear.Hardsuits_Features]</button>
+                        </li>
+                    </ul>
+                </li>
+
+                <li>
+                    <h4>Limited Gear</h4>
+                    <ul>
+                        <li id="gear1">
+                            <button onclick="update(gear1)">[g = lancerCorebook.Pilot_Gear.Gear.consumableList]</button>
+                        </li>
+                        <li id="gear2">
+                            <button onclick="update(gear2)">[g]</button>
+                        </li>
+                        <li id="gear3">
+                            <button onclick="update(gear3)">[g]</button>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+    </ul>
+
     <button onclick="update(pilotGear)">Re-roll all Gear</button>
-</ul>
+    <button onclick="copyPilotToClipboard()">Copy to clipboard</button>
+</main>
+
+<script>
+    function generateStrFromDict(dict) {
+        let strList = []
+
+        Object.entries(dict).forEach(([key, val]) => {
+            strList.push(key);
+            if (Array.isArray(val)) {
+                val.forEach(item => strList.push(`\t- ${item}`));
+            } else {
+                strList.push(`\t ${val}`);
+            }
+        });
+
+        return strList.join('\n');
+    }
+
+    function copyPilotToClipboard() {
+        let name = document.getElementById('pilotName').children[0].innerText;
+        let background = document.getElementById('background').children[0].innerText;
+
+        let trigger1 = document.getElementById('trigger1').children[0].innerText;
+        let trigger2 = document.getElementById('trigger2').children[0].innerText;
+        let trigger3 = document.getElementById('trigger3').children[0].innerText;
+        let trigger4 = document.getElementById('trigger4').children[0].innerText;
+
+        let melee = document.getElementById('melee').children[0].innerText;
+        let meleeDesc = document.getElementById('meleeDesc').children[0].innerText;
+
+        let ranged = document.getElementById('ranged').children[0].innerText;
+        let rangedDesc = document.getElementById('rangedDesc').children[0].innerText;
+
+        let hardsuit = document.getElementById('hardsuit').children[0].innerText;
+        let hardsuitDesc = document.getElementById('hardsuitDesc').children[0].innerText;
+
+        let gear1 = document.getElementById('gear1').children[0].innerText;
+        let gear2 = document.getElementById('gear2').children[0].innerText;
+        let gear3 = document.getElementById('gear3').children[0].innerText;
+
+        let pilot = {
+            "Name": name,
+            "Background": background,
+            "Triggers": [trigger1, trigger2, trigger3, trigger4],
+            "Melee Weapon": [melee, meleeDesc],
+            "Ranged Weapon": [ranged, rangedDesc],
+            "Hardsuit": [hardsuit, hardsuitDesc],
+            "Gear": [gear1, gear2, gear3],
+        };
+
+        let pilotStr = generateStrFromDict(pilot);
+        console.log(pilotStr);
+
+        // Example from: https://stackoverflow.com/questions/400212/how-do-i-copy-to-the-clipboard-in-javascript
+        navigator.clipboard.writeText(pilotStr)
+            .then(() => console.log('success'),
+                  (err) => console.error('Async: Could not copy test: ', err));
+    }
+
+</script>
