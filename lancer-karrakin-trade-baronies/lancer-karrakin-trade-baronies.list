@@ -1,0 +1,364 @@
+getPower(powerType) =>
+  const powerPoints = {'low': 1, 'med': 3, 'high': 5, 'ace': 8};
+  let points = powerPoints[powerType];
+  let powerRatings = {'might': 0, 'influence': 0, 'subterfuge': 0};
+  let power;
+
+  let randomizeRatings = Object.keys(powerRatings).sort(() => Math.random() - 0.5);
+  while(points > 0) {
+    for(let rating of randomizeRatings) {
+      let attemptedInvestment = Math.floor(Math.random() * 4)+1;
+      powerRatings[rating] += Math.min(attemptedInvestment, points);
+      points -= attemptedInvestment;
+
+      // BREAK if out of points to invest
+      if (points <= 0) { break; }
+    }
+  }
+
+  power = `MIGHT: ${powerRatings['might']} / INFLUENCE: ${powerRatings['influence']} / SUBTERFUGE: ${powerRatings['subterfuge']}`;
+  return power;
+
+Factions
+  Type
+    Core_Polity
+      (Core Polity): Technocracy
+      (Core Polity): Corpro-State
+      (Core Polity): Theocracy
+      (Core Polity): Oligarchy
+      (Core Polity): Democracy
+      (Core Polity): Autocracy
+    Peripheral_Polity
+      (Peripheral Polity): City-state
+      (Peripheral Polity): Port
+      (Peripheral Polity): Nomad society
+      (Peripheral Polity): Church or temple
+      (Peripheral Polity): Isolated society
+      (Peripheral Polity): Commune
+    Military
+      (Military): Militia
+      (Military): Sparri jäger guild
+      (Military): Albatross wing
+      (Military): Rogue fleet
+      (Military): Baronic Company
+      (Military): Mercenary company
+    Scientific
+      (Scientific): Archaeologists
+      (Scientific): Scientific mission
+      (Scientific): Cloners
+      (Scientific): Xenobiologists
+      (Scientific): Esoteric
+      (Scientific): Research Institute
+    Economic
+      (Economic): Trade union or guild
+      (Economic): Ship manufacturer or salvager
+      (Economic): Mech or weapons manufacturer
+      (Economic): Orbital farming conglomerate
+      (Economic): Heavy industry or mining
+      (Economic): Volador trade ship
+    Insurgent
+      (Insurgent): Revolutionaries
+      (Insurgent): Cult
+      (Insurgent): Secret society
+      (Insurgent): Pirate fleet
+      (Insurgent): Organized crime
+      (Insurgent): Pariahs 
+  Power
+    Low Power: ([getPower('low')])^4
+    Medium Power: ([getPower('med')])^5
+    High Power: ([getPower('high')] / STOCK: 2)^3
+    Superpower: ([getPower('ace')] / STOCK: 3)
+  Details
+    Descriptors
+      Ignorant
+      Pacifistic
+      Filthy
+      Energized
+      Industrious
+      Traditional
+      Progressive
+      Scheming
+      Struggling
+      Virtuous
+      Expert
+      Vengeful
+      Erudite
+      Corrupt
+      Thriving
+      Faithful
+      Disorganized
+      Warlike
+      Oppressive
+      Optimistic
+      Sprawling
+      Fanatical
+      Upstart
+      Ambitious
+      Martial
+      Humanitarian
+      Ancient
+      Slow
+      Wasteful
+      Bitter
+      Greedy
+      Exhausted
+      Isolated
+      Honorable
+      Spartan
+      Distrusting
+      Established
+      Jealous
+      Enlightened 
+      Communal
+    DesiresAndFears
+      Control
+      Peace
+      Conquest
+      Exploration
+      Knowledge
+      Prosperity
+      Secrecy
+      Stability
+      Isolation
+      Destruction
+      Understanding
+      Retribution
+      Chaos
+      Expansion
+      Technology
+      Conversion
+      Migration
+      Recognition
+      Abolition
+      Integration
+    SignificantObject
+      A legendary mech
+      A flute, played only once
+      A battered NHP casket
+      60 tons of smuggled cargo
+      A shield engraved with Sparri saga runes
+      A colorful mantle, patched together from many kinds of cloth
+      Bones of an Aunic saint, cast in gold
+      A pact on analogue paper, signed by many different hands
+      A golden orb that glows with a soft light
+      A heavy stone disc, etched with hieroglyphs
+      The fastest ship in the sector
+      A compass, wrought in gold. Doesn’t point to cardinal directions but reads something more strange.
+      A specimen of alien fauna, preserved in crystal
+      A scratched omnihook, constantly pinging one location
+      A captain’s hat, marred by a bullet hole
+      A ragged banner, treasured and scarred from many battles
+      An ancestral sword, wrapped in silk
+      The old mask and suit of a volador
+      A dusty computer terminal, old model and make
+      A pendant, delicate and silver
+    SignificantIncident
+      A hopeful pilgrimage
+      A poor omen or reading
+      A massacre, fresh in memory
+      A new and unpopular law, recently minted
+      A duel, barely lost
+      A huge technological leap
+      A routine tour or inspection
+      A diplomatic summit, tense and fateful
+      An unexpected arrival
+      A drawn out and fruitless war
+      A popular musical performance
+      A migration of many families
+      An unfortunate discovery
+      A riotous festival
+      A great hunt
+      A revolution, quick and bloody
+      An assassination
+      A missed opportunity, deeply regretted
+      A competition of sports, games, and prowess
+      A missing group of people, recently lost
+    SignificantLocation
+      An underground cavern filled with long-dead structures and deep, black lakes of icy water
+      A debris field from an old space battle, ripe for the picking
+      A factory complex, billowing fumes
+      An abandoned freighter, lost many years ago
+      A station in an icy planetary ring, crystalline and reflective
+      A sprawling city built into the walls of a deep crevasse, over- grown with the jungle and lit by bioluminescence
+      An old shrine perched at the fork of two swift rivers
+      A hollowed-out asteroid that holds many secrets
+      An old and long-abandoned cloning facility
+      A looming tower rising up from a valley of boiling, molten rock
+      A monument of slick black stone, graven with many names
+      A bustling and vibrant forest of enormous trees, populated by megafauna
+      A great sea of waving grass, dotted with old wreckage
+      An old city of stone and salt, the site of a pilgrimage
+      A secret base, hidden on the dark side of a dead moon
+      A great and impenetrable fortress
+      A battlefield, relatively fresh and raw from the wounds of war
+      A great bridge many miles long, built before memory
+      A platform sea-city, washed by storms and rocked gently by waves
+      An idyllic countryside town, warm and green
+    InterestingPeople
+      1 A builder who knows too much
+      An old freighter captain, past their prime years
+      A naive explorer
+      An inquisitive and spirited priest
+      A legendary lancer
+      A traumatized traveler
+      A foppish but sympathetic noble
+      A parochial engineer
+      A foolish and wealthy trader
+      A fated child
+      An idealistic diplomat
+      A likable warlord
+      A corporate executive, clean-cut and cold eyed
+      A fanatical writer
+      An impulsive and domineering general
+      A young and inexperienced revolutionary
+      A drunk scientist
+      A wounded farmer, bitter and hardened
+      A sloppy spy
+      A daredevil pilot without a ship
+  WillFactionAid
+    The Faction won't or can't help for now.^3
+    The Faction will help with strings attached. The PCs must offer some assurance, mutual aid, or collateral to receive help.^2
+    The faction offers aid with no strings attached.
+  FactionStrings
+    COLLATERAL: The PCs must offer up or leave something valuable with the faction.
+    MUTUAL AID: The PCs must do a minor task for the faction first.
+    PROMISE: The PCs must promise to undertake a specific task for the faction in the future. They receive –1 status if they fail to follow through.
+    DEBT: The PCs gain a debt to the faction, which the faction can call in any time. If the PCs can’t make good on the debt when they’re called, they receive –1 status.
+    DEMONSTRATION: The PCs must demon- stration skill, proficiency, or competency before they can get aid.
+    REPUTATION: Another faction must vouch for the PCs before they can get aid.
+  Aid
+    Tactical
+      SUPPLY DROP: Once, while resting, the PCs receive a supply drop from the faction, allowing them to restore their mechs to full HP and restore 1 charge to all LIMITED weapons and systems.
+      SCOUTING: Before beginning every mech combat during this mission, the players can look at the map and place two SIZE 1 pieces of hard cover anywhere on the map before placing their mechs.
+      RAPID INSERTION: In all combats this mission, the PCs can deploy anywhere on the map, from either stealth, a ship, or an orbital drop. This may not possible in all situations, and cannot be used when using sitreps with defined deployment zones (e.g., GAUNTLET and EXTRACTION).
+      INFILTRATION FIELD: The PCs and all allied characters start the first turn of any combat INVISIBLE.
+      TAKE THE SHOT: Once, as a quick action during combat, a PC may nominate a hostile character in line of sight. The nominated character is targeted by long-range weapons fire (a sniper, an orbital satellite, artillery) and must succeed on an AGILITY save or take 4D6 AP kinetic damage and are knocked PRONE. On a success, they take half damage and aren’t knocked down.
+      NPC ALLY: For the duration of this mission, the PCs gain an NPC ally of the appropriate TIER and archetype (ASSAULT, BERSERKER, BASTION, and HIVE are good choices). This NPC follows the turn order as though they were a PC (alternating turns with hostile and allied characters). Nominate one player to decide the NPC’s actions.
+    Narrative
+      PASSAGE: The faction will help you get inside one location uncontested, as long as it is within their power to do so. Start any scene at that location, past any obstacles.
+      TRACKING: The faction tracks down someone you’re looking for and tells you where exactly they will be in the next couple of days.
+      INTERFERENCE: Name a hostile faction you think might interfere with you. For the duration of the mission, it cannot interfere with you in any way.
+      SAFETY: For the duration of the mission, you can’t be followed without your knowledge, your comms can’t be listened to, and your activities cannot be reliably tracked.
+      TOOLS: Name some pilot-scale equipment (hacking tools, climbing gear, documents, etc.) that you need. You can get this delivered to you at any point you like during the mission. It lasts for the rest of the mission and grants +1 ACCURACY when used for its intended purpose.
+      EXTRACTION: For the duration of this mission, when you’re in trouble, you can make a call to a faction and it will show up to safely extract you from the scene.
+  WillFactionInterfere
+    The Faction refrains from interfering for now.^3
+    The Faction attempts to interfere, but the PCs get a chance to avoid this: they can offer some collateral, aid, action, or payment to mollify the faction and prevent it from interfering, though the nature of the interference might not be clear.^2
+    The Faction interferes with no warning.
+  FactionPayment
+    FAVOR: The PCs must do a favor for the faction right away.
+    DEFERENCE: The PCs must pay proper deference to the faction by verbally acknowledging its status, paying homage, or performing some service.
+    COLLATERAL OR PAYMENT: The PCs must leave something valuable with the faction until the mission is over. If it’s payment, they don’t get it back.
+    DUEL: Someone must fight a one-on-one duel with a representative of the faction. The faction will defer to the PCs or leave them alone if the PCs win.
+    DEMONSTRATION: The PCs must demonstrate skill, proficiency, or competency.
+    PROMISE: The PCs must make a promise to the faction. They take –1 status if the promise is broken or deferred.
+  Interference
+    Tactical
+      BOMBARDMENT: In the first turn of one combat this mission, all PCs and their allies must succeed on AGILITY saves or take 1d6 kinetic damage. On a success, they talk half damage.
+      BOUNTY: The GM picks a PC at the start of any one combat this mission. For the rest of this combat, all hostile characters gain +1 ACCURACY on attacks against that character.
+      HOSTILE RAPID DEPLOYMENT: In any one combat this mission, after the PCs have deployed, the GM may deploy hostile forces anywhere on the map and place two 3 x 3 zones of difficult terrain anywhere in free space on the map.
+      JAMMING WAVE: On the first turn of one combat this mission, all PCs and their allies must succeed on SYSTEMS saves or become JAMMED until the start of their next turn.
+      UPGRADES: The faction upgrades a mech in one combat this mission, making it ELITE.
+      REINFORCEMENTS: At the start of the second round of one combat this mission, the faction sends 4 hostile GRUNT NPCs to the battlefield to interfere.
+    Narrative
+      EXCLUSION: Once this mission, when the PCs gain an object or asset using a downtime action (including Power at a Cost), they can’t have it until they’ve taken it from this faction. It’s accessible, just defended in some way (put in a vault, guarded, placed in a hard to reach location, etc).
+      POISON: The GM picks a PC that ate, drank, or touched something suspect in a scene this mission. Until the next downtime, that PC receives +1 DIFFICULTY to all narrative actions. They can end this by tracking down an antidote (in the wild, from a seller, from the faction that caused the poison, etc).
+      SIGNAL JAMMING: For this mission only, the PCs can’t track anyone down or navigate properly, and they get lost if they try to travel. They can fix this by finding the source of the signal jammer and destroying it.
+      VIRUS: The PCs can’t fix, hack, or modify any gear or electronics this mission. They can purge the virus by tracing it to its source on the omninet.
+      TRACKING BUG: All the PCs’ enemies always know where they are. They can fix this by finding where the tracking bugs are on their persons and destroying them.
+      SABOTAGE: The GM picks a scene where the characters need something to work (a weapon, a vehicle, etc). Instead, it’s broken, and it will take some time to repair it.
+  
+
+Baronic_House
+  Name
+    House of Axes
+    House of Pelts
+    House of Tunics
+    House of Storms
+    House of Swords
+    House of Chalk
+    House of Hilts
+    House of Grass
+    House of Horns
+    House of Petals
+    House of Sails
+    House of Leaves
+    House of Lanterns
+    House of Coals
+    House of Currents
+    House of Cups
+    House of Iron
+    House of Sparks
+    House of Shields
+    House of Gauntlets  
+  Heraldry
+    A coiled snake
+    A lion, bearing its teeth
+    Dueling warriors
+    A trident, rising from gushing water
+    Crossed swords with curved hilts
+    A mermaid lifting a golden cup
+    A space freighter, in front of the sun disc
+    An eagle gripping a sheaf of wheat
+    A war helm, with trailing crest
+    A twisting ermine
+    A rearing horse
+    A gilt ship engine schematic
+    A shield, divided into fields
+    A dragon with its teeth clasped over a branch
+    An axe over a pheasant
+    An assault rifle crossed over a lance
+    Intricate vines
+    Stylized, power-armored fist
+    Stylized horns lifting the moon
+    A spear piercing stylized clouds
+  Primary_Color
+    Or (gold/yellow)
+    Gules (red)
+    Sable (black)
+    Azure (blue)
+    Argent (white/silver)
+    Vert (green)
+  Motto
+    First
+      "The guiding star 
+      “The oldest steel 
+      “Only a fool 
+      “Learning of the heart 
+      “The evening’s last cloud 
+      “A secret held close 
+      “Blood spilled but once, 
+      “A loyal dog 
+      “The wisdom of stone 
+      “A debt long owed, 
+      “A tiger backed against a wall 
+      “The well-used brush 
+      “An open path, 
+      “A single spark 
+      “A leaf that never touches the ground 
+      “ The toll of war 
+      “The silent warrior 
+      “The tempered edge 
+      “The lightest bird 
+      “A blade raised in anger 
+    Last
+      must be guarded with iron.”
+      will always find company.”
+      will never prove false.”
+      will be followed to the end.”
+      will ignite the very stars.”
+      must be swiftly followed.”
+      wounds the sharpest.”
+      is never forgotten”
+      is more precious than gold.”
+      must be blessed with fire.”
+      gathers a storm.”
+      leads all fools astray.”
+      must be cast in stone.”
+      can only be bound in silk.”
+      reveals the only path home.”
+      will slaughter the lamb alone.”
+      has the weight of an ox.”
+      must be honored with gold.”
+      will smite the hand of the master.”
+      can shatter any fortress.”
