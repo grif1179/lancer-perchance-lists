@@ -362,3 +362,176 @@ Baronic_House
       must be honored with gold.”
       will smite the hand of the master.”
       can shatter any fortress.”
+
+Map
+  Urban
+    Core
+      Aging residential area
+      Public square or park
+      Hab blocks
+      Underground district
+      Government district
+      Open-air market
+      Transportation hub
+      Floating district (air or water)
+      Commercial mega-complex
+      Suburban area
+      Major commercial district
+      Entertainment or red-light district
+      Residential megastructure
+    Peripheral
+      Garbage dump
+      Trainyard
+      Slum or shantytown
+      Prison
+      Dying residential district
+      Military base
+      Toxic area
+      Underground bunker
+      Abandoned district
+      Ship or mech graveyard
+      Hollowed-out megastructure
+      Inactive industrial plant
+      Fortress
+    NotableLocations
+      Library or public records
+      Public building
+      Notable restaurant
+      Sports stadium
+      Zoo or reservation
+      Orbital elevator
+      Theater
+      Church, cathedral, or temple
+      Communications complex
+      University or research institute
+      Monument or public art project
+      Museum
+      Megabuilding
+    Industrial
+      Mech manufacturer
+      Chemical plant
+      Industrial headquarters
+      Fuel refinery
+      Drone nexus
+      Industrial farm
+      Printing facility
+      Warehousing
+      Mine
+      Spaceport or dock
+      Heavy industry
+      Shipyard
+      Construction yard
+  Regional
+    Temperate
+      Temperate forest
+      Rainforest
+      Woodland
+      Grassland
+      Savanna
+      Spore forest
+      Moor
+      Wildlands
+      Migratory forest
+      Megaforest
+      Coral forest
+      Boreal forest
+      Grass Sea
+    Elevation
+      Canyon
+      Spires
+      Caves
+      Colossal geode
+      Impact crater
+      Volcano
+      Steppes
+      Plateau
+      Cliff
+      Geothermal area
+      Mountain
+      Hills
+      Large mountain
+    ExtremeFeature
+      Boiling mud
+      Glass desert
+      Sand dunes
+      High desert
+      Salt flats
+      Solar waste
+      Scrub
+      Badland
+      Pelagic waste
+      Tundra
+      Ice spires
+      Polar Ice
+      Snowy wasteland
+    Water
+      River
+      Caustic pools
+      Geysers
+      Flooded caves
+      Fjord
+      Hot springs
+      Lagoon
+      Lake
+      Swamp
+      Creek
+      Reservoir
+      Waterfall
+      Wetland
+  System
+    PopulatedWorlds
+      Cloud world
+      Monument station
+      Hollow world
+      Holy world
+      Industrial world
+      Metroswathe
+      Pre-industrial world
+      Terran world
+      Icy world
+      Orbital city
+      Ocean world
+      Agrarian world
+      Blink gate
+    PeripheralWorlds
+      Inhabited moon
+      Nomad fleet
+      Pre-industrial world
+      Fueling station ring
+      Pirate station
+      Refugee fleet
+      Research fleet
+      Ship graveyard
+      String station
+      Orbital eco-preserve
+      Space Fortress
+      Megaship
+      Metavault
+    CelestialFeatures
+      Space battlefield
+      Ice field
+      Migratory tear
+      Mega asteroid
+      Nebula
+      Solar storm
+      Shipping lane
+      Void
+      Stopover station
+      White hole
+      Asteroid belt
+      Decaying hulk
+      Black hole
+    UninhabitedWorlds
+      Tomb world
+      Unstable world
+      Overgrown world
+      Molten world
+      Pre-fall ruin
+      Preserve
+      Gaia world
+      Toxic world
+      Failed colony
+      Storm world
+      Crumbling world
+      Graviton world
+      Twinned world

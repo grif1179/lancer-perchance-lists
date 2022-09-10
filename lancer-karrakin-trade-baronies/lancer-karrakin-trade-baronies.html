@@ -83,3 +83,64 @@
 </div>
 <button onclick="update(interfere)">randomize</button>
 <hr>
+
+
+<div style="margin:1em auto; padding:0 1em;" id="map_forge">
+    <h2>Map Forge</h2>
+    <select onchange="update(map_forge)" oninput="mapType = this.value" name="mapType" id="mapType">
+        <option value="Urban">Urban</option>
+        <option value="System">Regional</option>
+        <option value="System">System</option>
+    </select>
+
+    <br>
+
+    <style>
+        #map-forge {
+            border: 1px solid black;
+            width: 50%;
+            margin-left: 25%;
+            margin-top: 20px;
+        }
+
+        #map-forge tr {
+            height: 100px;
+            border: 1px solid black;
+        }
+
+        #map-forge tr td {
+            width: 25%;
+            border: 1px solid black;
+        }
+    </style>
+
+    <table id="map-forge">
+        <tr>
+            <td>[subType = Map[mapType], Map[mapType][subType]]</td>
+            <td>[subType = Map[mapType], Map[mapType][subType]]</td>
+            <td>[subType = Map[mapType], Map[mapType][subType]]</td>
+            <td>[subType = Map[mapType], Map[mapType][subType]]</td>
+        </tr>
+
+        <tr>
+            <td>[subType = Map[mapType], Map[mapType][subType]]</td>
+            <td>[subType = Map[mapType], Map[mapType][subType]]</td>
+            <td>[subType = Map[mapType], Map[mapType][subType]]</td>
+            <td>[subType = Map[mapType], Map[mapType][subType]]</td>
+        </tr>
+
+        <tr>
+            <td>[subType = Map[mapType], Map[mapType][subType]]</td>
+            <td>[subType = Map[mapType], Map[mapType][subType]]</td>
+            <td>[subType = Map[mapType], Map[mapType][subType]]</td>
+            <td>[subType = Map[mapType], Map[mapType][subType]]</td>
+        </tr>
+
+        <tr>
+            <td>[subType = Map[mapType], Map[mapType][subType]]</td>
+            <td>[subType = Map[mapType], Map[mapType][subType]]</td>
+            <td>[subType = Map[mapType], Map[mapType][subType]]</td>
+            <td>[subType = Map[mapType], Map[mapType][subType]]</td>
+        </tr>
+    </table>
+</div>
