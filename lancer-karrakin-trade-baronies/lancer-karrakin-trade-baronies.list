@@ -363,6 +363,9 @@ Baronic_House
       will smite the hand of the master.”
       can shatter any fortress.”
 
+
+mapType=Urban
+
 Map
   Urban
     Core
