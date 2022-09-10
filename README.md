@@ -25,6 +25,15 @@
 
 - How to import to your own perchance table: `{import:lancer-long-rim}`
 
+### Lancer Karrakin Trade Baronies
+
+- Link to table: [lancer-karrakin-trade-baronies](https://perchance.org/lancer-karrakin-trade-baronies)
+- Files used:
+  - lancer-karrakin-trade-baronies.html
+  - lancer-karrakin-trade-baronies.list
+
+- How to import to your own perchance table: `{import:lancer-karrakin-trade-baronies}`
+
 ### Lancer Pilot Generator
 
 - Link to table: [lancer-pilot-generator](https://perchance.org/lancer-pilot-generator)
