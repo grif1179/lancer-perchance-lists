@@ -24,3 +24,12 @@
     - Link to table in perchance: [enterprise-names](https://perchance.org/ogfcg6tkuz)
 
 - How to import to your own perchance table: `{import:lancer-long-rim}`
+
+### Lancer Pilot Generator
+
+- Link to table: [lancer-pilot-generator](https://perchance.org/lancer-pilot-generator)
+- Files used:
+  - lancer-pilot.html
+  - lancer-pilot.list
+
+- This generator only uses other tables so likely isn't useful as an import.
